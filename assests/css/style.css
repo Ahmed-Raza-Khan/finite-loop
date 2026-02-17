@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gotham-9');
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+:root {
+    --font-gotham: 'Gotham';
+    --font-clash-display: 'Clash Display';
+    --font-satoshi: 'Satoshi';
+    --font-outfit: 'Outfit';
+    --font-poppins: 'Poppins';
+    --font-regular: 'regular';
+    --font-bold: 'Bold';
+    --font-medium: 'Medium';
+    --font-light: 'Light';
+    --font-semibold: 'SemiBold';
+    --font-weight-300: 300;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+    --white-color: #FFFFFF;
+    --white-half: #EFF1F9;
+    --gray-color-40: #bdbdbd;
+    --teal-green-color: #5CFFC5;
+    --dark-black-selection-color: #27282A;
+    --dark-gray-color: #D9D9D9;
+    --gray-color-opacity-10: #FFFFFF1A;
+    --purple-color-back: #703BEC;
+    --purple-background-main: #070322;
+    --background-card-dark-to-light-teal-10: #5CFFC51A;
+    --background-card-dark-to-light-teal-20: #5CFFC533;
+    --background-card-dark-to-light-teal-50: #5CFFC580;
+    --background-dark-gray-80: #27282ACC;
+}
+
+
+/* navbar section */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+.light-background {
+    background: url(../images/lignting-navbar.png);
+}
+
+.star-background {
+    background: url(../images/navbar-stars.png);
+}
+
+.navbar-main-all {
+  border: 1px solid var(--gray-color-opacity-10);
+}
+
+.navbar-main-all .active{
+  font-family: var(--font-satoshi);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: var(--teal-green-color);
+}
+
+nav div a {
+  font-family: var(--font-satoshi);
+  font-weight: var(--font-weight-400);
+  font-style: 'Book';
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: var(--white-color);
+}
+
+nav div a:hover {
+  color: var(--teal-green-color);
+}
