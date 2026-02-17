@@ -12,10 +12,10 @@
         <link rel="icon" type="image/x-icon" href="assests/images/finite-loop-logo-main.png">
         <link rel="stylesheet" href="assests/css/style.css">
     </head>
-    <body class="bg-[#0a0a1a] text-white overflow-x-hidden">
+<body class="bg-[#0a0a1a] overflow-x-hidden">
         
-        <section class="relative min-h-screen flex flex-col items-center justify-start overflow-hidden star-background">
-            
+    <section class="relative min-h-screen flex flex-col items-center overflow-hidden star-background">
+        
         <div class="absolute right-0 top-0 w-[600px] h-[600px] bg-purple-600 opacity-30 blur-[150px] rounded-full"></div>
         
         <div class="absolute inset-0 light-background"></div>
@@ -38,7 +38,16 @@
             </div>
         </nav>
 
-        <div class="relative z-40 text-center mt-24 px-6 max-w-6xl">
+        
+        <div class="absolute inset-0 flex items-center justify-center pointer-events-none z-0 mt-15">
+            <img 
+                src="assests/images/hero-curve-circle.png" 
+                alt="curve"
+                class="w-[100%] max-w-none opacity-100 blur-[0px] mt-30 circle-curve"
+            />
+        </div>
+
+        <div class="relative z-1 text-center mt-35 px-6 max-w-6xl">
             
             <p class="mb-4 small-heading-hero-section">
                 Loop Less. Build More.
@@ -51,12 +60,10 @@
             </h1>
             
             <p class="hero-sec-description-bottom-big mt-9 max-w-5xl mx-auto">
-              AI-powered software solutions for teams that value outcomes over excuses.
+            AI-powered software solutions for teams that value outcomes over excuses.
             </p>
 
-            <div class="absolute left-1/2 -translate-x-1/2 top-20 w-[100%] h-[200px] bg-purple-600 opacity-40 blur-[120px] -z-10 circle-curve"></div>
-
-            <div class="mt-8">
+            <div class="mt-15">
                 <button class="px-8 py-4 rounded-full hover:scale-105 transition button-hero-section-bottom">
                     Get In Touch
                 </button>
@@ -70,59 +77,33 @@
 
         <div class="relative z-40 w-4/5 border-t mt-10 border-top-hero-section"></div>
 
-        <div class="relative z-40 w-full overflow-hidden py-8">
-
+        <div class="relative z-40 w-full overflow-hidden py-8 slider-fade">
             <div id="logoSlider" class="flex gap-16 w-max animate-scroll">
-
                 <div class="flex gap-16">
-                    <div class="flex items-center gap-2 opacity-70">
-                        <img src="assests/images/slider-logo-1.svg" />
-                        <span>Logo Ipsum</span>
+                    <div class="flex items-center gap-2">
+                        <img src="assests/images/slider-logo-1.svg"/>
+                        <span class="slider-logo-text">Logo Ipsum</span>
                     </div>
 
-                    <div class="flex items-center gap-2 opacity-70">
-                        <img src="assests/images/slider-logo-2.svg" />
-                        <span>Logo Ipsum</span>
+                    <div class="flex items-center gap-2">
+                        <img src="assests/images/slider-logo-2.svg"/>
                     </div>
 
-                    <div class="flex items-center gap-2 opacity-70">
-                        <img src="assests/images/slider-logo-3.svg" />
-                        <span>Logo Ipsum</span>
+                    <div class="flex items-center gap-2">
+                        <img src="assests/images/slider-logo-3.svg"/>
                     </div>
 
-                    <div class="flex items-center gap-2 opacity-70">
-                        <img src="assests/images/slider-logo-4.svg" />
-                        <span>Logo Ipsum</span>
+                    <div class="flex items-center gap-2">
+                        <img src="assests/images/slider-logo-4.svg"/>
+                        <span class="slider-logo-text">Logo Ipsum</span>
                     </div>
                 </div>
-
-                <div class="flex gap-16">
-                    <div class="flex items-center gap-2 opacity-70">
-                        <img src="https://dummyimage.com/30x30/ffffff/000000" />
-                        <span>Logo Ipsum</span>
-                    </div>
-
-                    <div class="flex items-center gap-2 opacity-70">
-                        <img src="https://dummyimage.com/30x30/ffffff/000000" />
-                        <span>Logo Ipsum</span>
-                    </div>
-
-                    <div class="flex items-center gap-2 opacity-70">
-                        <img src="https://dummyimage.com/30x30/ffffff/000000" />
-                        <span>Logo Ipsum</span>
-                    </div>
-
-                    <div class="flex items-center gap-2 opacity-70">
-                        <img src="https://dummyimage.com/30x30/ffffff/000000" />
-                        <span>Logo Ipsum</span>
-                    </div>
-                </div>
-
             </div>
         </div>
 
         <div class="relative z-40 w-4/5 border-t mb-10 border-top-hero-section"></div>
     </section>
 
+    <script src="assests/js/logo-slider-hero.js"></script>
 </body>
 </html>

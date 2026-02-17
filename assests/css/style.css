@@ -36,8 +36,12 @@
 
 /* navbar section */
 @keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .animate-scroll {
@@ -49,7 +53,7 @@
     width: 100%;
     background-repeat: no-repeat;
     background-position: top right;
-    /* opacity: 1; */
+    opacity: 0.7;
 }
 
 .star-background {
@@ -87,14 +91,8 @@ nav div a:hover {
 }
 
 .circle-curve {
-  background-image: url(../images/hero-curve-circle.png);
-  opacity: 1;
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
   object-fit: cover;
-  /* filter: blur(111.11px); */
-  /* z-index: 11; */
+  background-repeat: no-repeat;
 }
 
 .small-heading-hero-section {
@@ -165,4 +163,23 @@ nav div a:hover {
 
 .border-top-hero-section {
   border-color: var(--gray-color-40);
+}
+
+.slider-logo-text {
+  font-family: var(--font-satoshi);
+  font-weight: var(--font-weight-700);
+  font-style: var(--font-bold);
+  font-size: 36px;
+  line-height: 90%;
+  letter-spacing: -2.22px;
+  color: var(--white-color);
+}
+
+.slider-fade {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
 }
