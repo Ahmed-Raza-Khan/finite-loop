@@ -12,31 +12,47 @@
         <link rel="icon" type="image/x-icon" href="assests/images/finite-loop-logo-main.png">
         <link rel="stylesheet" href="assests/css/style.css">
     </head>
-<body class="bg-[#0a0a1a] overflow-x-hidden">
+
+    <body class="bg-[#0a0a1a] overflow-x-hidden">
         
     <section class="relative min-h-screen flex flex-col items-center overflow-hidden star-background">
         
         <div class="absolute right-0 top-0 w-[600px] h-[600px] bg-purple-600 opacity-30 blur-[150px] rounded-full"></div>
         
         <div class="absolute inset-0 light-background"></div>
-        
-        <nav class="relative z-50 w-[90%] mt-12 rounded-full px-15 py-0 flex items-center justify-between shadow-xl navbar-main-all">
-            
-            <div class="flex gap-8">
+
+        <nav class="relative z-50 w-[90%] mt-8 md:mt-12 rounded-full px-10 md:px-15 py-3 flex items-center justify-between shadow-xl navbar-main-all">
+            <div class="hidden md:flex gap-8">
                 <a href="index.html" class="active">Home</a>
                 <a href="#">About</a>
                 <a href="#">Services</a>
             </div>
-            
-            <div>
-                <a href="index.html"><img src="assests/images/finite-loop-logo-main.png" alt="logo" height="60" width="145"></a>
+
+            <div class="z-10">
+                <a href="index.html">
+                    <img src="assests/images/finite-loop-logo-main.png" alt="logo" class="h-11 md:h-[60px] w-auto">
+                </a>
             </div>
-            
-            <div class="flex gap-8">
+
+            <div class="hidden md:flex gap-8">
+                <a href="#">Blogs & Articles</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <button id="menuToggle" class="md:hidden text-white text-3xl z-50">
+                ☰
+            </button>
+
+            <div id="mobileMenu"
+                class="fixed top-0 right-[-100%] w-[75%] h-full bg-purple-600/0 backdrop-blur-xl transition-all duration-500 z-40 flex flex-col items-center justify-center gap-8 text-white text-xl underline underline-offset-4">
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
                 <a href="#">Blogs & Articles</a>
                 <a href="#">Contact</a>
             </div>
         </nav>
+
 
         
         <div class="absolute inset-0 flex items-center justify-center pointer-events-none z-0 mt-15">
@@ -105,5 +121,6 @@
     </section>
 
     <script src="assests/js/logo-slider-hero.js"></script>
+    <script src="assests/js/toogle-navbarmobile-size.js"></script>
 </body>
 </html>

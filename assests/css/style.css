@@ -183,3 +183,48 @@ nav div a:hover {
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
+
+@media (max-width: 425px) {
+
+  .small-heading-hero-section {
+    font-size: 25px;
+    line-height: 80%;
+  }
+
+  .big-heading-hero-section,
+  .big-heading-hero-section-2 {
+    font-size: 27px;
+    line-height: 140%;
+  }
+
+  .hero-sec-description-bottom-big {
+    font-size: 17px;
+    line-height: 130%;
+    padding: 0 10px;
+    margin-top: 20px;
+  }
+
+  .button-hero-section-bottom {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  .hero-sec-description-bottom-small {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 30px;
+  }
+
+  .circle-curve {
+    margin-top: -130px;
+    opacity: 1;
+  }
+
+  .slider-logo-text {
+    font-size: 18px;
+  }
+
+  #logoSlider img {
+    height: 25px;
+  }
+}
