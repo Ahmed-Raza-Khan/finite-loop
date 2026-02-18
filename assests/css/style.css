@@ -28,6 +28,7 @@
     --dark-black-selection-color: #27282A;
     --dark-gray-color: #D9D9D9;
     --gray-color-opacity-10: #FFFFFF1A;
+    ---white-border-color-opacity-40: #FFFFFF66;
     --purple-color-back: #703BEC;
     --purple-background-main: #070322;
     --background-card-dark-to-light-teal-10: #5CFFC51A;
@@ -299,10 +300,10 @@ nav div a:hover {
   line-height: 120%;
 }
 
-.service-card:hover .icon-box {
+/* .service-card:hover .icon-box {
     background: #a855f7;
     color: white;
-}
+} */
 
 @media (max-width: 425px) {
   /* section {
@@ -381,3 +382,88 @@ nav div a:hover {
     height: 50px !important;
   }
 }
+
+
+/* Our Technology Stack section */
+/* Concentric Circle Background */
+.tech-circle {
+  background: url(../images/circles-vector-content.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 750px;
+  opacity: 1;
+    /* border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.1); */
+    /* position: relative; */
+}
+
+/* .tech-circle::before,
+.tech-circle::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.08);
+} */
+
+/* .tech-circle::before {
+    width: 600px;
+    height: 600px;
+    top: 100px;
+    left: 100px;
+} */
+
+/* .tech-circle::after {
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    left: 200px;
+} */
+
+/* Floating Badge */
+.tech-badge {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 30px 6px 10px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(87, 201, 160, 0.1)), linear-gradient(rgba(3, 134, 110, 0.5), rgba(3, 134, 110, 0.5));
+    border: 2px solid var(---white-border-color-opacity-40);
+    border-radius: 999px;
+    gap: 14px;
+    /* backdrop-filter: blur(12px); */
+    /* font-size: 12px; */
+}
+
+.tech-badge img{
+    border: 1.11px solid rgba(255,255,255,0.1);
+    border-radius: 50%;
+}
+
+.tech-badge h4 {
+  color: var(--white-color);
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-700);
+  font-style: var(--font-bold);
+  font-size: 17.78px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  margin-bottom: 5px;
+}
+
+.tech-badge p {
+  color: var(--white-color);
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-100);
+  font-style: var(--font-regular);
+  font-size: 17.78px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.badge-1 { top: 15%; left: 34%; transform: translateX(-50%); }
+.badge-2 { top: 20%; right: 22%; }
+.badge-3 { top: 40%; left: 19%; }
+.badge-4 { bottom: 40%; right: 2%; }
+.badge-5 { bottom: 30%; left: 6%; }
+.badge-6 { bottom: 15%; right: 13%; }
