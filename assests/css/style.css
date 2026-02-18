@@ -385,7 +385,6 @@ nav div a:hover {
 
 
 /* Our Technology Stack section */
-/* Concentric Circle Background */
 .tech-circle {
   background: url(../images/circles-vector-content.png);
   background-repeat: no-repeat;
@@ -393,34 +392,8 @@ nav div a:hover {
   width: 80%;
   height: 750px;
   opacity: 1;
-    /* border-radius: 50%;
-    border: 1px solid rgba(255,255,255,0.1); */
-    /* position: relative; */
 }
 
-/* .tech-circle::before,
-.tech-circle::after {
-    content: "";
-    position: absolute;
-    border-radius: 50%;
-    border: 1px solid rgba(255,255,255,0.08);
-} */
-
-/* .tech-circle::before {
-    width: 600px;
-    height: 600px;
-    top: 100px;
-    left: 100px;
-} */
-
-/* .tech-circle::after {
-    width: 400px;
-    height: 400px;
-    top: 200px;
-    left: 200px;
-} */
-
-/* Floating Badge */
 .tech-badge {
     position: absolute;
     display: flex;
@@ -464,6 +437,142 @@ nav div a:hover {
 .badge-1 { top: 15%; left: 34%; transform: translateX(-50%); }
 .badge-2 { top: 20%; right: 22%; }
 .badge-3 { top: 40%; left: 19%; }
-.badge-4 { bottom: 40%; right: 2%; }
+.badge-4 { bottom: 45%; right: 2%; }
 .badge-5 { bottom: 30%; left: 6%; }
-.badge-6 { bottom: 15%; right: 13%; }
+.badge-6 { bottom: 23%; right: 12%; }
+
+.center-text-of-technology {
+  transform: translateY(290px);
+}
+
+.center-text-of-technology h2 {
+  color: var(--white-color);
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0%;
+}
+
+.center-text-of-technology p {
+  color: var(--white-half);
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-medium);
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.bottom-text-fo-texhnology-trigger {
+  transform: translateY(250px);
+}
+
+.bottom-text-fo-texhnology-trigger h3 {
+  color: var(--white-half);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 50px;
+  line-height: 80px;
+  letter-spacing: -4%;
+}
+
+.bottom-text-fo-texhnology-trigger p {
+  color: var(--white-half);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 425px) {
+/* 
+  section {
+    padding: 100px 15px 120px;
+  } */
+
+  .absolute.inset-0.flex.items-center.justify-center {
+    position: relative;
+    display: block;
+    height: 80px;
+  }
+
+  .tech-circle {
+    width: 100%;
+    height: 380px;
+    background-size: contain;
+    background-position: center;
+    transform: translateY(-200px);
+  }
+
+  .tech-badge {
+    position: absolute;
+    top: -130%;
+    left: 50%;
+    transform-origin: center;
+    width: 200px;
+    height: 60px;
+    padding: 1px 4px;
+  }
+
+  .tech-badge img {width: 40px; height: 40px;}
+  .tech-badge h4 { font-size: 12px; }
+  .tech-badge p { font-size: 7px; }
+
+
+  .badge-1 { transform: translate(-50%, -50%) rotate(0deg) translateY(-160px) rotate(0deg); }
+
+  .badge-2 { transform: translate(-50%, -50%) rotate(60deg) translateY(-160px) rotate(-60deg); }
+
+  .badge-3 { transform: translate(-50%, -50%) rotate(120deg) translateY(-160px) rotate(-120deg); }
+
+  .badge-4 { transform: translate(-50%, -50%) rotate(180deg) translateY(-160px) rotate(-180deg); }
+
+  .badge-5 { transform: translate(-50%, -50%) rotate(240deg) translateY(-160px) rotate(-240deg); }
+
+  .badge-6 { transform: translate(-50%, -50%) rotate(300deg) translateY(-160px) rotate(-300deg); }
+
+  .center-text-of-technology {
+    position: absolute;
+    top: -7%;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
+    /* transform: translateY(-380%); */
+    width: 80%;
+    z-index: 5;
+  }
+
+  .center-text-of-technology h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .center-text-of-technology p {
+    font-size: 10px;
+  }
+
+  .bottom-text-fo-texhnology-trigger {
+    transform: none;
+    transform: translateY(-20%);
+    margin-top: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .bottom-text-fo-texhnology-trigger h3 {
+    font-size: 24px;
+  }
+
+  .bottom-text-fo-texhnology-trigger p {
+    font-size: 15px;
+  }
+
+  .bottom-blurry-lines {
+    top: 50%;
+  }
+
+}
