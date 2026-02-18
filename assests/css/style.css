@@ -303,3 +303,81 @@ nav div a:hover {
     background: #a855f7;
     color: white;
 }
+
+@media (max-width: 425px) {
+  /* section {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  } */
+
+  section .absolute.w-\[600px\] {
+    width: 350px !important;
+    height: 350px !important;
+    top: 120px !important;
+    opacity: 0.25;
+  }
+
+  .sservice-main-headings-all h2 {
+    font-size: 25px !important;
+    line-height: 120% !important;
+    letter-spacing: 0 !important;
+  }
+
+  .service-card-h2-highlight {
+    font-size: 25px !important;
+  }
+
+  .sservice-main-headings-all p {
+    font-size: 11px !important;
+    line-height: 150% !important;
+    padding: 0 10px;
+  }
+
+  #servicesContainer {
+    gap: 20px !important;
+  }
+
+  #servicesContainer {
+    display: flex !important;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px !important;
+    padding-bottom: 10px;
+  }
+
+  #servicesContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  #servicesContainer {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .service-card {
+    margin-top: 10px;
+    min-width: 100%;
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+  }
+
+  .service-card {
+    padding: 24px !important;
+    border-radius: 16px;
+  }
+
+  .service-card h3 {
+    font-size: 20px !important;
+    line-height: 130% !important;
+  }
+
+  .service-card p {
+    font-size: 11px !important;
+    line-height: 150% !important;
+  }
+
+  .service-icon {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}

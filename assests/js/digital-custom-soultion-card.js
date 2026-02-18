@@ -1,6 +1,5 @@
 const services = [
     {
-        img: "assets/images/digital-solution-enginering-card-purple.svg",
         title: "Ecommerce Solutions",
         desc: "Full-stack ecommerce solutions covering web, mobile, and custom software built for performance, scale, and conversions."
     },
@@ -32,11 +31,15 @@ services.forEach(service => {
     const card = document.createElement("div");
 
     card.className =
-        "service-card p-8 text-center relative";
+        "service-card p-8 text-center relative cursor-pointer rounded-2xl transition-all duration-300";
 
     card.innerHTML = `
-        <div class="icon-box w-12 h-12 mb-6 flex items-center justify-center rounded-lg bg-purple-600/20 text-purple-400 transition-all duration-300">
-            ${service.img}
+        <div class="mb-6 flex justify-center">
+            <img src="assests/images/digital-solution-enginering-card-purple.svg"
+                class="service-icon w-15 h-15 transition-all duration-300"
+                data-default="assests/images/digital-solution-enginering-card-purple.svg"
+                data-hover="assests/images/digital-solution-enginering-card-teal.svg"
+            />
         </div>
 
         <h3 class="mb-4">
@@ -47,6 +50,16 @@ services.forEach(service => {
             ${service.desc}
         </p>
     `;
+
+    const img = card.querySelector(".service-icon");
+
+    card.addEventListener("mouseenter", () => {
+        img.src = img.dataset.hover;
+    });
+
+    card.addEventListener("mouseleave", () => {
+        img.src = img.dataset.default;
+    });
 
     container.appendChild(card);
 });
