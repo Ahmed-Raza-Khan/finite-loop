@@ -21,7 +21,10 @@
     --white-color: #FFFFFF;
     --white-half: #EFF1F9;
     --gray-color-40: #bdbdbd;
+    --gray-color-darker: #3A4046;
     --teal-green-color: #5CFFC5;
+    --teal-green-linear-shades: #5CFEC533;
+    --teal-green-linear-color: #5CFEC5;
     --dark-black-selection-color: #27282A;
     --dark-gray-color: #D9D9D9;
     --gray-color-opacity-10: #FFFFFF1A;
@@ -227,4 +230,76 @@ nav div a:hover {
   #logoSlider img {
     height: 25px;
   }
+}
+
+
+/* Digital solution section */
+.sservice-main-headings-all h2{
+  font-size: 60px;
+  color: var(--dark-gray-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  letter-spacing: -4%;
+  line-height: 110%;
+}
+
+.sservice-main-headings-all p{
+  font-size: 18px;
+  color: var(--white-half);
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-300);
+  font-style: var(--font-light);
+  letter-spacing: 0%;
+  line-height: 140%;
+}
+
+.service-card-h2-highlight {
+  font-size: 60px;
+  color: var(--teal-green-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  letter-spacing: -4%;
+  line-height: 110%;
+}
+
+.service-card {
+    background: var(--background-dark-gray-80);
+    border: 1.11px solid var(--gray-color-darker);
+    border-radius: 20px;
+    transition: all 0.1s ease;
+}
+
+.service-card:hover {
+    background: var(--teal-green-linear-shades);
+    border: 2px solid var(--teal-green-linear-color);
+    border-radius: 20px;
+    transform: translateY(-6px);
+}
+
+.service-card h3 {
+  font-size: 32px;
+  color: var(--white-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  letter-spacing: 0%;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+
+.service-card p {
+  font-size: 13px;
+  color: var(--white-half);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-300);
+  font-style: 'light';
+  letter-spacing: 0%;
+  line-height: 120%;
+}
+
+.service-card:hover .icon-box {
+    background: #a855f7;
+    color: white;
 }
