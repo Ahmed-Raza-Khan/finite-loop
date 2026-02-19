@@ -491,11 +491,6 @@ nav div a:hover {
 }
 
 @media (max-width: 425px) {
-/* 
-  section {
-    padding: 100px 15px 120px;
-  } */
-
   .absolute.inset-0.flex.items-center.justify-center {
     position: relative;
     display: block;
@@ -683,4 +678,42 @@ nav div a:hover {
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
+}
+
+@media (max-width: 425px) {
+  .what-our-client-say-heading h2 {
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: -2%;
+  }
+
+  .cards-all-inslider-user {
+    max-width: 300px !important;
+    height: auto;
+    padding: 24px !important;
+    margin-right: 15px;
+  }
+
+  .cards-all-inslider-user p {
+    font-size: 15px;
+    margin-bottom: 16px;
+  }
+
+  .cards-all-inslider-user h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .cards-all-inslider-user span {
+    font-size: 12px;
+  }
+
+  .cards-all-inslider-user img {
+    width: 48px;
+    height: 48px;
+  }
+  
+  #sliderRow1, #sliderRow2 {
+    animation-duration: 30s !important;
+  }
 }
