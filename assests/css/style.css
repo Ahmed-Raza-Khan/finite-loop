@@ -30,6 +30,7 @@
     --gray-color-opacity-10: #FFFFFF1A;
     ---white-border-color-opacity-40: #FFFFFF66;
     --purple-color-back: #703BEC;
+    --purple-color-mixed-25: #703BEC40;
     --purple-background-main: #070322;
     --background-card-dark-to-light-teal-10: #5CFFC51A;
     --background-card-dark-to-light-teal-20: #5CFFC533;
@@ -220,7 +221,7 @@ nav div a:hover {
   }
 
   .circle-curve {
-    margin-top: -130px;
+    margin-top: 160px;
     opacity: 1;
   }
 
@@ -575,4 +576,111 @@ nav div a:hover {
     top: 50%;
   }
 
+}
+
+
+/* what our clients say section */
+.grid-background-section {
+  background-image: url(../images/grid-background.png);
+  background-position: top;
+  opacity: 1;
+}
+
+@keyframes scrollLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scrollRight {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.what-our-client-say-heading span {
+  background-color: var(--purple-color-mixed-25);
+  color: var(--white-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  gap: 12px;
+}
+
+.what-our-client-say-heading span .span-2{
+  background-color: var(--purple-color-mixed-25);
+  border: 1.11px solid var(--purple-color-back);
+  gap: 12px;
+}
+
+.what-our-client-say-heading h2{
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: -4%;
+  background: linear-gradient(180deg, #fff, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cards-all-inslider-user {
+  background-color: var(--background-dark-gray-80);
+  border-radius: 20px;
+  border: 1px solid var(--dark-gray-color);
+  gap: 45px;
+}
+
+.cards-all-inslider-user p {
+  color: var(--white-color);
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.cards-all-inslider-user img {
+  width: 63px;
+  height: 63px;
+}
+
+.cards-all-inslider-user h4 {
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 27px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  background: linear-gradient(180deg, #fff, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cards-all-inslider-user span{
+  color: var(--gray-color-40);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-light);
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+
+.cards-all-inslider-user:hover {
+  background-color: var(--background-card-dark-to-light-teal-20);
+  border: 2px solid var(--teal-green-color);
+  transform: translateY(-10px);
+}
+
+.user-slider-fade {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
 }
