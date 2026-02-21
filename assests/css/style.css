@@ -717,3 +717,115 @@ nav div a:hover {
     animation-duration: 30s !important;
   }
 }
+
+
+/* about us section */
+.about-us-section span {
+  background-color: var(--purple-color-mixed-25);
+  color: var(--white-color);
+  gap: 12px;
+}
+
+.about-us-section span .span-2{
+  background-color: var(--purple-color-mixed-25);
+  border: 1.11px solid var(--purple-color-back);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  gap: 12px;
+}
+
+.about-us-section h2 {
+  color: var(--white-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 60px;
+  line-height: 110%;
+  letter-spacing: -2%;
+  width: 650px;
+}
+
+.about-us-section h2 .center-color-purple{
+  color: var(--teal-green-color);
+  background: transparent;
+}
+
+.about-us-section p {
+  color: var(--white-half);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 14pX;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.about-us-section button {
+  background-color: var(--teal-green-color);
+  color: var(--dark-black-selection-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 18px;
+  letter-spacing: 0%;
+  line-height: 29px;
+}
+
+
+/* frequently asked question card section */
+.frequently-asked-question span {
+  background-color: var(--purple-color-mixed-25);
+  color: var(--white-color);
+}
+
+.frequently-asked-question span .span-2{
+  background-color: var(--purple-color-mixed-25);
+  border: 2px solid var(--purple-color-back);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.frequently-asked-question h2{
+  background: linear-gradient(180deg, #fff, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: -4%;
+  text-transform: uppercase;
+}
+
+.faq-card:hover {
+  background-color: rgba(92, 255, 197, 0.2);
+  border: 1.1px solid rgba(92, 255, 197, 0.5);
+  box-sizing: border-box;
+}
+
+.faq-card {
+  color: var(--white-color);
+  background-color: var(--dark-black-selection-color);
+  border: 1.11px solid var(--background-card-dark-to-light-teal-10);
+  gap: 23px;
+}
+
+.faq-card h3{
+  color: var(--white-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 26px;
+  line-height: 110%;
+  letter-spacing: -2%;
+  /* padding: 44px; */
+}
