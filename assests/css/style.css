@@ -680,7 +680,6 @@ nav div a:hover {
     font-size: 7px;
   }
 
-
   .badge-1 { transform: translate(-50%, -50%) rotate(0deg) translateY(-160px) rotate(0deg); }
   .badge-2 { transform: translate(-65%, -50%) rotate(60deg) translateY(-160px) rotate(-60deg); }
   .badge-3 { transform: translate(-65%, -50%) rotate(120deg) translateY(-160px) rotate(-120deg); }
@@ -1756,6 +1755,14 @@ nav div a:hover {
   .foter-heading-all-links-newsletter-input {
     width: 90%;
   }
+
+  .bg-oval-circle-grid-pattern {
+    display: none;
+  }
+
+  .bg-grid-pattern {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1782,5 +1789,13 @@ nav div a:hover {
 
   .foter-heading-all-links-newsletter-input {
     width: 20rem;
+  }
+
+  .bg-oval-circle-grid-pattern {
+    display: none;
+  }
+
+  .bg-grid-pattern {
+    display: none;
   }
 }
