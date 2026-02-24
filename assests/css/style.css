@@ -236,6 +236,82 @@ nav div a:hover {
   }
 }
 
+@media (min-width: 600px) {
+  .small-heading-hero-section {
+    font-size: 32px;
+    line-height: 110%;
+  }
+
+  .big-heading-hero-section,
+  .big-heading-hero-section-2 {
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+  .hero-sec-description-bottom-big {
+    font-size: 18px;
+    line-height: 140%;
+    padding: 0 20px;
+  }
+
+  .hero-sec-description-bottom-small {
+    font-size: 16px;
+  }
+
+  .button-hero-section-bottom {
+    font-size: 17px;
+    padding: 14px 30px;
+  }
+
+  .circle-curve {
+    margin-top: 120px;
+  }
+
+  #logoSlider img {
+    height: 30px;
+  }
+
+  .slider-logo-text {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .small-heading-hero-section {
+    font-size: 42px;
+  }
+
+  .big-heading-hero-section,
+  .big-heading-hero-section-2 {
+    font-size: 60px;
+    line-height: 110%;
+  }
+
+  .hero-sec-description-bottom-big {
+    font-size: 22px;
+    line-height: 150%;
+  }
+
+  .hero-sec-description-bottom-small {
+    font-size: 18px;
+  }
+
+  .circle-curve {
+    margin-top: 80px;
+  }
+
+  #logoSlider img {
+    height: 35px;
+  }
+
+  .slider-logo-text {
+    font-size: 28px;
+  }
+
+  nav div a {
+    font-size: 16px;
+  }
+}
 
 /* Digital solution section */
 .sservice-main-headings-all h2{
@@ -386,6 +462,82 @@ nav div a:hover {
   }
 }
 
+@media (min-width: 600px) {
+  .sservice-main-headings-all h2 {
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -1%;
+  }
+
+  .service-card-h2-highlight {
+    font-size: 36px;
+  }
+
+  .sservice-main-headings-all p {
+    font-size: 15px;
+    line-height: 150%;
+  }
+
+  #servicesContainer {
+    gap: 24px;
+  }
+
+  .service-card {
+    padding: 28px;
+  }
+
+  .service-card h3 {
+    font-size: 24px;
+  }
+
+  .service-card p {
+    font-size: 12px;
+    line-height: 140%;
+  }
+
+  .service-icon {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sservice-main-headings-all h2 {
+    font-size: 48px;
+    line-height: 110%;
+  }
+
+  .service-card-h2-highlight {
+    font-size: 48px;
+  }
+
+  .sservice-main-headings-all p {
+    font-size: 17px;
+  }
+
+  #servicesContainer {
+    gap: 30px;
+  }
+
+  .service-card {
+    padding: 32px;
+  }
+
+  .service-card h3 {
+    font-size: 28px;
+  }
+
+  .service-card p {
+    font-size: 13px;
+    line-height: 150%;
+  }
+
+  .service-icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+
 
 /* Our Technology Stack section */
 .tech-circle {
@@ -398,22 +550,20 @@ nav div a:hover {
 }
 
 .tech-badge {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 6px 30px 6px 10px;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(87, 201, 160, 0.1)), linear-gradient(rgba(3, 134, 110, 0.5), rgba(3, 134, 110, 0.5));
-    border: 2px solid var(---white-border-color-opacity-40);
-    border-radius: 999px;
-    gap: 14px;
-    /* backdrop-filter: blur(12px); */
-    /* font-size: 12px; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 30px 6px 10px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(87, 201, 160, 0.1)), linear-gradient(rgba(3, 134, 110, 0.5), rgba(3, 134, 110, 0.5));
+  border: 2px solid var(---white-border-color-opacity-40);
+  border-radius: 999px;
+  gap: 14px;
 }
 
 .tech-badge img{
-    border: 1.11px solid rgba(255,255,255,0.1);
-    border-radius: 50%;
+  border: 1.11px solid rgba(255,255,255,0.1);
+  border-radius: 50%;
 }
 
 .tech-badge h4 {
@@ -517,40 +667,47 @@ nav div a:hover {
     padding: 1px 4px;
   }
 
-  .tech-badge img {width: 40px; height: 40px;}
-  .tech-badge h4 { font-size: 12px; }
-  .tech-badge p { font-size: 7px; }
+  .tech-badge img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tech-badge h4 {
+    font-size: 12px;
+  }
+
+  .tech-badge p {
+    font-size: 7px;
+  }
 
 
   .badge-1 { transform: translate(-50%, -50%) rotate(0deg) translateY(-160px) rotate(0deg); }
-
-  .badge-2 { transform: translate(-50%, -50%) rotate(60deg) translateY(-160px) rotate(-60deg); }
-
-  .badge-3 { transform: translate(-50%, -50%) rotate(120deg) translateY(-160px) rotate(-120deg); }
-
+  .badge-2 { transform: translate(-65%, -50%) rotate(60deg) translateY(-160px) rotate(-60deg); }
+  .badge-3 { transform: translate(-65%, -50%) rotate(120deg) translateY(-160px) rotate(-120deg); }
   .badge-4 { transform: translate(-50%, -50%) rotate(180deg) translateY(-160px) rotate(-180deg); }
-
-  .badge-5 { transform: translate(-50%, -50%) rotate(240deg) translateY(-160px) rotate(-240deg); }
-
-  .badge-6 { transform: translate(-50%, -50%) rotate(300deg) translateY(-160px) rotate(-300deg); }
+  .badge-5 { transform: translate(-35%, -50%) rotate(240deg) translateY(-160px) rotate(-240deg); }
+  .badge-6 { transform: translate(-35%, -50%) rotate(300deg) translateY(-160px) rotate(-300deg); }
 
   .center-text-of-technology {
-    position: absolute;
+    /* position: absolute;
     top: -7%;
-    left: 10%;
+    left: 10%; */
     /* transform: translate(-50%, -50%); */
-    /* transform: translateY(-380%); */
+    /* transform: translateY(350%);
     width: 80%;
-    z-index: 5;
+    z-index: 5; */
+    display: none;
   }
 
   .center-text-of-technology h2 {
-    font-size: 22px;
-    line-height: 28px;
+    /* font-size: 22px; */
+    /* line-height: 28px; */
+    display: none;
   }
 
   .center-text-of-technology p {
-    font-size: 10px;
+    /* font-size: 10px; */
+    display: none;
   }
 
   .bottom-text-fo-texhnology-trigger {
@@ -573,6 +730,109 @@ nav div a:hover {
     top: 50%;
   }
 
+}
+
+@media (max-width: 600px) {
+  .tech-circle {
+    width: 90%;
+    height: 500px;
+    background-size: contain;
+  }
+
+  .tech-badge {
+    padding: 6px 20px;
+  }
+
+  .tech-badge img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .tech-badge h4 {
+    font-size: 14px;
+  }
+
+  .tech-badge p {
+    font-size: 13px;
+  }
+
+  .center-text-of-technology {
+    display: block;
+    transform: translateY(180px);
+  }
+
+  .center-text-of-technology h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .center-text-of-technology p {
+    font-size: 15px;
+  }
+
+  .bottom-text-fo-texhnology-trigger {
+    transform: translateY(160px);
+    gap: 30px;
+  }
+
+  .bottom-text-fo-texhnology-trigger h3 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .bottom-text-fo-texhnology-trigger p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .tech-circle {
+    width: 85%;
+    height: 650px;
+  }
+
+  .tech-badge {
+    padding: 8px 24px;
+  }
+
+  .tech-badge img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .tech-badge h4 {
+    font-size: 16px;
+  }
+
+  .tech-badge p {
+    font-size: 15px;
+  }
+
+  .center-text-of-technology {
+    transform: translateY(240px);
+  }
+
+  .center-text-of-technology h2 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .center-text-of-technology p {
+    font-size: 17px;
+  }
+
+  .bottom-text-fo-texhnology-trigger {
+    transform: translateY(200px);
+    gap: 40px;
+  }
+
+  .bottom-text-fo-texhnology-trigger h3 {
+    font-size: 42px;
+  }
+
+  .bottom-text-fo-texhnology-trigger p {
+    font-size: 15px;
+  }
 }
 
 
@@ -720,6 +980,86 @@ nav div a:hover {
   }
 }
 
+@media (min-width: 600px) {
+  .what-our-client-say-heading span {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .what-our-client-say-heading h2 {
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -2%;
+  }
+
+  .cards-all-inslider-user {
+    max-width: 360px;
+    padding: 28px;
+    gap: 30px;
+  }
+
+  .cards-all-inslider-user p {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .cards-all-inslider-user h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .cards-all-inslider-user span {
+    font-size: 14px;
+  }
+
+  .cards-all-inslider-user img {
+    width: 55px;
+    height: 55px;
+  }
+
+  #sliderRow1, 
+  #sliderRow2 {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .what-our-client-say-heading h2 {
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: -3%;
+  }
+
+  .cards-all-inslider-user {
+    max-width: 420px;
+    padding: 32px;
+    gap: 40px;
+  }
+
+  .cards-all-inslider-user p {
+    font-size: 17px;
+    line-height: 160%;
+  }
+
+  .cards-all-inslider-user h4 {
+    font-size: 24px;
+  }
+
+  .cards-all-inslider-user span {
+    font-size: 15px;
+  }
+
+  .cards-all-inslider-user img {
+    width: 60px;
+    height: 60px;
+  }
+
+  #sliderRow1, 
+  #sliderRow2 {
+    gap: 24px;
+  }
+}
+
 
 /* about us section */
 .about-us-section span {
@@ -787,6 +1127,42 @@ nav div a:hover {
 
   .about-us-section p {
     font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) {
+  .about-us-section h2 {
+    font-size: 42px;
+    line-height: 115%;
+    width: 100%;
+  }
+
+  .about-us-section p {
+    font-size: 15px;
+    line-height: 160%;
+  }
+
+  .about-us-section button {
+    font-size: 17px;
+    padding: 14px 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-us-section h2 {
+    font-size: 32px;
+    line-height: 110%;
+    width: 350px;
+  }
+
+  .about-us-section p {
+    font-size: 13px;
+    line-height: 170%;
+  }
+
+  .about-us-section button {
+    font-size: 18px;
+    padding: 16px 32px;
   }
 }
 
@@ -876,6 +1252,58 @@ nav div a:hover {
   }
 }
 
+@media (min-width: 600px) {
+  .frequently-asked-question h2 {
+    font-size: 42px;
+    line-height: 120%;
+    letter-spacing: -2%;
+  }
+
+  .frequently-asked-question span .span-2 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .faq-card {
+    padding: 20px 24px;
+  }
+
+  .faq-card h3 {
+    font-size: 20px;
+  }
+
+  .faq-card p {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .frequently-asked-question h2 {
+    font-size: 52px;
+    line-height: 70px;
+    letter-spacing: -3%;
+  }
+
+  .frequently-asked-question span .span-2 {
+    font-size: 18px;
+  }
+
+  .faq-card {
+    padding: 24px 32px;
+  }
+
+  .faq-card h3 {
+    font-size: 23px;
+  }
+
+  .faq-card p {
+    font-size: 15px;
+  }
+
+}
+
 
 /* insights & articles section */
 .insights-atricle-section span {
@@ -950,12 +1378,6 @@ nav div a:hover {
 }
 
 @media (max-width: 425px) {
-
-  section.bg-\[\#070322\] {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
   .insights-atricle-section h2 {
     font-size: 28px;
     line-height: 120%;
@@ -973,6 +1395,58 @@ nav div a:hover {
   }
 }
 
+@media (min-width: 600px) {
+  .insights-atricle-section h2 {
+    font-size: 42px;
+    line-height: 120%;
+    letter-spacing: -2%;
+  }
+
+  .insights-atricle-section span .span-2 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .blog-card {
+    padding: 20px;
+  }
+
+  .leading-snug {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .bloge-head-badge-all,
+  .bloge-head-date-all {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  .insights-atricle-section h2 {
+    font-size: 52px;
+    line-height: 70px;
+    letter-spacing: -3%;
+  }
+
+  .insights-atricle-section span .span-2 {
+    font-size: 18px;
+  }
+
+  .blog-card {
+    padding: 24px;
+  }
+
+  .leading-snug {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .bloge-head-badge-all,
+  .bloge-head-date-all {
+    font-size: 14px;
+  }
+}
 
 /* lets build what matter section */
 .background-bulid-matters {
@@ -1039,6 +1513,51 @@ nav div a:hover {
     width: 300px;
     height: 200px;
     bottom: -60px;
+  }
+}
+
+@media (min-width: 600px) {
+  .background-bulid-matters-text h2 {
+    font-size: 42px;
+    line-height: 120%;
+  }
+
+  .background-bulid-matters-text p {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .background-bulid-matters-text button {
+    font-size: 18px;
+    padding: 12px 28px;
+  }
+
+  .background-bulid-matters-circle-down {
+    width: 380px;
+    height: 220px;
+    bottom: -70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .background-bulid-matters-text h2 {
+    font-size: 54px;
+    line-height: 120%;
+  }
+
+  .background-bulid-matters-text p {
+    font-size: 18px;
+  }
+
+  .background-bulid-matters-text button {
+    font-size: 19px;
+    padding: 14px 32px;
+  }
+
+  .background-bulid-matters-circle-down {
+    width: 450px;
+    height: 260px;
+    bottom: -80px;
   }
 }
 
@@ -1146,7 +1665,6 @@ nav div a:hover {
 }
 
 @media (max-width: 425px) {
-
   footer {
     padding: 40px 20px;
   }
@@ -1204,4 +1722,65 @@ nav div a:hover {
     text-align: center;
   }
 
+  .bg-oval-circle-grid-pattern {
+    display: none;
+  }
+
+  .bg-grid-pattern {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  footer .flex.flex-col.md\:flex-row {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+
+  footer .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .foter-heading-all-links h3,
+  .foter-heading-all-links-newsletter h3 {
+    font-size: 20px;
+  }
+
+  .foter-heading-all-links ul li {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .foter-heading-all-links-newsletter-input {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  footer .flex.flex-col.md\:flex-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .foter-heading-all-links h3,
+  .foter-heading-all-links-newsletter h3 {
+    font-size: 22px;
+  }
+
+  .foter-heading-all-links ul li {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .foter-heading-all-links-newsletter-input {
+    width: 20rem;
+  }
 }
