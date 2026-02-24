@@ -1045,10 +1045,28 @@ nav div a:hover {
 
 /* footer background section */
 .bg-grid-pattern {
-  background: url(../images/_Group_.png);
+  background: url(../images/footer-background.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  opacity: 5%;
+  opacity: 1%;
+  transform: translateY(320px);
+}
+
+.grid-footer-slider-fade {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 90%, black 90%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 90%, black 90%, transparent 100%);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+.bg-oval-circle-grid-pattern {
+  background: url(../images/oval-footer.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  opacity: 40%;
+  transform: translateY(200px);
 }
 
 .foter-horizontal-row {
@@ -1092,4 +1110,98 @@ nav div a:hover {
 .foter-heading-all-links-newsletter-input {
   background-color: var(--background-dark-gray-80);
   border: 1px solid var(--gray-color-opacity-10);
+}
+
+.foter-heading-all-links-newsletter-input input, placeholder{
+  color: var(--white-color);
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.foter-heading-all-links-newsletter-input button{
+  color: var(--dark-black-selection-color);
+  background-color: var(--teal-green-color);
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-700);
+  font-style: var(--font-medium);
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  gap: 10px;
+}
+
+.footer-copyright-text {
+  color: var(--white-half);
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  opacity: 70%;
+}
+
+@media (max-width: 425px) {
+
+  footer {
+    padding: 40px 20px;
+  }
+
+  footer .flex.flex-col.md\:flex-row {
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  footer img[alt="Finite Loop Logo"] {
+    width: 160px;
+    height: auto;
+  }
+
+  footer .flex.gap-4 {
+    justify-content: flex-start;
+  }
+
+  footer .grid {
+    grid-template-columns: 1fr !important;
+    gap: 35px;
+  }
+
+  .foter-heading-all-links h3,
+  .foter-heading-all-links-newsletter h3 {
+    font-size: 18px;
+  }
+
+  .foter-heading-all-links ul li {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .foter-heading-all-links-newsletter-input {
+    width: 100% !important;
+    border-radius: 40px;
+  }
+
+  .foter-heading-all-links-newsletter-input input {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .foter-heading-all-links-newsletter-input button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .foter-horizontal-row {
+    margin: 30px 0;
+  }
+
+  .footer-copyright-text {
+    font-size: 13px;
+    text-align: center;
+  }
+
 }
