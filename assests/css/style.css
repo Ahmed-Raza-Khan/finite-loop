@@ -687,31 +687,20 @@ nav div a:hover {
   .badge-5 { transform: translate(-35%, -50%) rotate(240deg) translateY(-160px) rotate(-240deg); }
   .badge-6 { transform: translate(-35%, -50%) rotate(300deg) translateY(-160px) rotate(-300deg); }
 
-  .center-text-of-technology {
-    /* position: absolute;
-    top: -7%;
-    left: 10%; */
-    /* transform: translate(-50%, -50%); */
-    /* transform: translateY(350%);
-    width: 80%;
-    z-index: 5; */
-    display: none;
-  }
-
   .center-text-of-technology h2 {
-    /* font-size: 22px; */
-    /* line-height: 28px; */
-    display: none;
+    font-size: 22px;
+    line-height: 28px;
+    transform: translateY(-140px);
   }
 
   .center-text-of-technology p {
-    /* font-size: 10px; */
-    display: none;
+    font-size: 14px;
+    transform: translateY(-130px);
   }
 
   .bottom-text-fo-texhnology-trigger {
     transform: none;
-    transform: translateY(-20%);
+    transform: translateY(30%);
     margin-top: 80px;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -728,23 +717,18 @@ nav div a:hover {
   .bottom-blurry-lines {
     top: 50%;
   }
-
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .tech-circle {
-    width: 90%;
-    height: 500px;
-    background-size: contain;
-  }
-
-  .tech-badge {
-    padding: 6px 20px;
+    height: 600px;
+    width: 100%;
+    transform: translateY(-150px);
   }
 
   .tech-badge img {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
   }
 
   .tech-badge h4 {
@@ -752,85 +736,80 @@ nav div a:hover {
   }
 
   .tech-badge p {
-    font-size: 13px;
+    font-size: 10px;
   }
 
-  .center-text-of-technology {
-    display: block;
-    transform: translateY(180px);
-  }
+  .badge-1 { transform: translate(-80%, 70%) rotate(0deg) translateY(-160px) rotate(0deg); }
+  .badge-2 { transform: translate(-15%, -50%) rotate(60deg) translateY(-160px) rotate(-60deg); }
+  .badge-3 { transform: translate(35%, 10%) rotate(120deg) translateY(-160px) rotate(-120deg); }
+  .badge-4 { transform: translate(-40%, -100%) rotate(180deg) translateY(-160px) rotate(-180deg); }
+  .badge-5 { transform: translate(55%, -350%) rotate(240deg) translateY(-160px) rotate(-240deg); }
+  .badge-6 { transform: translate(-80%, -780%) rotate(300deg) translateY(-160px) rotate(-300deg); }
 
   .center-text-of-technology h2 {
-    font-size: 36px;
-    line-height: 46px;
+    font-size: 29px;
+    line-height: 28px;
+    transform: translateY(-250px);
   }
 
   .center-text-of-technology p {
-    font-size: 15px;
-  }
-
-  .bottom-text-fo-texhnology-trigger {
-    transform: translateY(160px);
-    gap: 30px;
+    font-size: 20px;
+    transform: translateY(-230px);
   }
 
   .bottom-text-fo-texhnology-trigger h3 {
-    font-size: 36px;
-    line-height: 50px;
+    font-size: 30px;
   }
 
   .bottom-text-fo-texhnology-trigger p {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
 
 @media (min-width: 768px) {
   .tech-circle {
-    width: 85%;
-    height: 650px;
-  }
-
-  .tech-badge {
-    padding: 8px 24px;
+    height: 750px;
+    width: 100%;
+    transform: translateY(-90px);
   }
 
   .tech-badge img {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
   }
 
   .tech-badge h4 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .tech-badge p {
-    font-size: 15px;
+    font-size: 11px;
   }
 
-  .center-text-of-technology {
-    transform: translateY(240px);
-  }
+  .badge-1 { transform: translate(-80%, 70%) rotate(0deg) translateY(-160px) rotate(0deg); }
+  .badge-2 { transform: translate(-25%, -80%) rotate(60deg) translateY(-160px) rotate(-60deg); }
+  .badge-3 { transform: translate(75%, 60%) rotate(120deg) translateY(-160px) rotate(-120deg); }
+  .badge-4 { transform: translate(-40%, -10%) rotate(180deg) translateY(-160px) rotate(-180deg); }
+  .badge-5 { transform: translate(55%, -250%) rotate(240deg) translateY(-160px) rotate(-240deg); }
+  .badge-6 { transform: translate(-80%, -680%) rotate(300deg) translateY(-160px) rotate(-300deg); }
 
   .center-text-of-technology h2 {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 28px;
+    transform: translateY(-250px);
   }
 
   .center-text-of-technology p {
-    font-size: 17px;
-  }
-
-  .bottom-text-fo-texhnology-trigger {
-    transform: translateY(200px);
-    gap: 40px;
+    font-size: 22px;
+    transform: translateY(-230px);
   }
 
   .bottom-text-fo-texhnology-trigger h3 {
-    font-size: 42px;
+    font-size: 40px;
   }
 
   .bottom-text-fo-texhnology-trigger p {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
