@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gotham-9');
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+:root {
+    --font-gotham: 'Gotham';
+    --font-clash-display: 'Clash Display';
+    --font-satoshi: 'Satoshi';
+    --font-outfit: 'Outfit';
+    --font-poppins: 'Poppins';
+    --font-regular: 'regular';
+    --font-bold: 'Bold';
+    --font-medium: 'Medium';
+    --font-light: 'Light';
+    --font-semibold: 'SemiBold';
+    --font-weight-300: 300;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+    --white-color: #FFFFFF;
+    --white-half: #EFF1F9;
+    --color-mains-down: background: linear-gradient(180deg, #fff, #999);
+    --gray-color-40: #bdbdbd;
+    --gray-color-darker: #3A4046;
+    --gray-color-old-darks: #252628;
+    --teal-green-color: #5CFFC5;
+    --teal-green-colors-playing: #5DFCC6;
+    --teal-green-linear-shades: #5CFEC533;
+    --teal-green-linear-color: #5CFEC5;
+    --dark-black-selection-color: #27282A;
+    --dark-gray-color: #D9D9D9;
+    --gray-color-opacity-10: #FFFFFF1A;
+    ---white-border-color-opacity-40: #FFFFFF66;
+    --purple-color-back: #703BEC;
+    --purple-color-mixed-25: #703BEC40;
+    --purple-background-main: #070322;
+    --background-card-dark-to-light-teal-10: #5CFFC51A;
+    --background-card-dark-to-light-teal-20: #5CFFC533;
+    --background-card-dark-to-light-teal-50: #5CFFC580;
+    --background-dark-gray-80: #27282ACC;
+}
+
+
+/* @keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+} */
+
+.light-background {
+    background-image: url(../images/lignting-navbar.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    opacity: 0.7;
+}
+
+.star-background {
+    background: url(../images/navbar-stars.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.navbar-main-all {
+  border: 1px solid var(--gray-color-opacity-10);
+  background-color: var(--gray-color-opacity-10);
+}
+
+.navbar-main-all .active{
+  font-family: var(--font-satoshi);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: var(--teal-green-color);
+}
+
+nav div a {
+  font-family: var(--font-satoshi);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-medium);
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: var(--white-color);
+}
+
+nav div a:hover {
+  color: var(--teal-green-color);
+}
+
+/* .circle-curve {
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.small-heading-hero-section {
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 50px;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: var(--white-color);
+} */
+
+.big-heading-hero-section {
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 80px;
+  line-height: 120%;
+  letter-spacing: -4%;
+  text-transform: capitalize;
+  color: var(--white-half);
+}
+
+.big-heading-hero-section-2 {
+    font-family: var(--font-poppins);
+    font-weight: var(--font-weight-500);
+    font-style: var(--font-medium);
+    font-size: 80px;
+    line-height: 120%;
+    letter-spacing: -4%;
+    text-transform: capitalize;
+    color: var(--teal-green-color);
+}
+
+.mask-color-span-3 {
+    background: linear-gradient(180deg, #fff, #999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.hero-sec-description-bottom-big {
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: var(--white-half);
+}
+
+.button-hero-section-bottom {
+  background-color: var(--teal-green-color);
+  gap: 12px;
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: var(--dark-black-selection-color);
+  backdrop-filter: blur(66.67px);
+}
+
+.hero-sec-description-bottom-small {
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-light);
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  color: var(--white-color);
+}
+
+.border-top-hero-section {
+  border-color: var(--gray-color-40);
+}
+
+.slider-logo-text {
+  font-family: var(--font-satoshi);
+  font-weight: var(--font-weight-700);
+  font-style: var(--font-bold);
+  font-size: 36px;
+  line-height: 90%;
+  letter-spacing: -2.22px;
+  color: var(--white-color);
+}
+
+.slider-fade {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+
+/* Digital solution section */
+.grid-background-section {
+  background-image: url(../images/images-aboutus/grid-dark-background-full.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 100%;
+}
+
+.core-values text {
+  background-color: var(--purple-color-mixed-25);
+  color: var(--white-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  gap: 12px;
+}
+
+.core-values text .text-2{
+  background-color: var(--purple-color-mixed-25);
+  border: 1.11px solid var(--purple-color-back);
+  gap: 12px;
+}
+
+.sservice-main-headings-all h2{
+  font-size: 60px;
+  color: var(--dark-gray-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  letter-spacing: -4%;
+  line-height: 110%;
+}
+
+.sservice-main-headings-all p{
+  font-size: 18px;
+  color: var(--white-half);
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-300);
+  font-style: var(--font-light);
+  letter-spacing: 0%;
+  line-height: 140%;
+}
+
+.service-card-h2-highlight {
+  font-size: 60px;
+  color: var(--teal-green-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  letter-spacing: -4%;
+  line-height: 110%;
+}
+
+.service-card {
+    background: var(--background-dark-gray-80);
+    border: 1.11px solid var(--gray-color-darker);
+    border-radius: 20px;
+    transition: all 0.1s ease;
+}
+
+.service-card:hover {
+    background: var(--teal-green-linear-shades);
+    border: 2px solid var(--teal-green-linear-color);
+    border-radius: 20px;
+    transform: translateY(-6px);
+}
+
+.service-card h3 {
+  font-size: 21px;
+  color: var(--white-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  letter-spacing: 0%;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+
+.service-card p {
+  font-size: 13px;
+  color: var(--white-half);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-300);
+  font-style: 'light';
+  letter-spacing: 0%;
+  line-height: 120%;
+}
+
+.card-icon-core-values {
+    background-color: var(--purple-color-back);
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+}
+
+.bottom-text-fo-texhnology-trigger h3 {
+  background: linear-gradient(180deg, #fff, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 63px;
+  line-height: 80px;
+  letter-spacing: -4%;
+}
+
+.bottom-text-fo-texhnology-trigger p {
+  color: var(--white-half);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-light);
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0%;
+}

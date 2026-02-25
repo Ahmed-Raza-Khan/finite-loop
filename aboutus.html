@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet"
+            />
+        <title>Finite-Loop | Aboutus</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="icon" type="image/x-icon" href="assests/images/finite-loop-logo-main.png">
+        <link rel="stylesheet" href="assests/css/aboutus.css">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gotham-fonts@1.0.3/css/gotham-rounded.min.css"> -->
+        <!-- <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css"> -->
+    </head>
+
+<body class="bg-[#0a0a1a] overflow-x-hidden">
+        
+    <section class="relative min-h-screen flex flex-col items-center overflow-hidden star-background">
+        <div class="absolute right-0 top-0 w-[600px] h-[600px] bg-purple-600 opacity-30 blur-[150px] rounded-full"></div>
+        
+        <div class="absolute inset-0 light-background w-full"></div>
+
+        <nav class="relative z-50 w-[90%] mt-8 md:mt-12 rounded-full px-10 md:px-15 py-3 flex items-center justify-between shadow-xl navbar-main-all">
+            <div class="hidden md:flex gap-8">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html" class="active">About Us</a>
+                <a href="#">Services</a>
+            </div>
+
+            <div class="z-10">
+                <a href="index.html">
+                    <img src="assests/images/finite-loop-logo-main.png" alt="logo" class="h-11 md:h-[60px] w-auto">
+                </a>
+            </div>
+
+            <div class="hidden md:flex gap-8">
+                <a href="#">Blogs & Articles</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <button id="menuToggle" class="md:hidden text-white text-3xl z-50">
+                ☰
+            </button>
+
+            <div id="mobileMenu"
+                class="fixed top-0 right-[-100%] w-[75%] h-full bg-purple-600/0 backdrop-blur-xl transition-all duration-500 z-40 flex flex-col items-center justify-center gap-8 text-white text-xl underline underline-offset-4">
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Blogs & Articles</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+
+        <div class="relative z-1 text-center mt-15 px-6 max-w-6xl">
+            <h1 class="text-4xl md:text-6xl leading-tight big-heading-hero-section">
+                <span>Discover More</span>
+                <span class="big-heading-hero-section-2">About</span><br/>
+                <span class="mask-color-span-3">Finite Loop</span>
+            </h1>
+            
+            <p class="hero-sec-description-bottom-big mt-9 max-w-4xl mx-auto">
+                Empowering you to navigate cryptocurrency with confidence, ease, and the right tools for informed decisions.
+            </p>
+        </div>
+    </section>
+    
+    <section class="relative py-10 overflow-hidden bg-[#0C0529] grid-background-section">
+        
+        <div class="absolute w-[600px] h-[400px] bg-purple-600 opacity-30 blur-[130px] rounded-full top-70 left-1/2 -translate-x-2/2"></div>
+        
+        <div class="relative z-10 max-w-6xl mx-auto px-6 text-center sservice-main-headings-all core-values">
+            <div class="absolute w-[100%] h-[100%] rounded-full top-70 left-2/2 -translate-x-1/2 grid-background-section"></div>
+            <text class="inline-block px-2 py-4 rounded-full mb-4">
+                <text class="text-2 py-2 px-4 rounded-full">Core Values</text>
+            </text>
+
+            <h2 class="text-4xl md:text-5xl mb-6">
+                Digital <span class="service-card-h2-highlight">Solutions</span> Engineered <br />
+                with precision
+            </h2>
+
+            <p class="text-gray-300 max-w-2xl mx-auto mb-16">
+                End-to-end services covering AI, ecommerce, platforms, and security.
+                Designed to scale, perform, and deliver real business value.
+            </p>
+
+            <div id="servicesContainer"
+                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            </div>
+
+
+            <div class="relative z-10 mt-32 max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 text-center gap-12 bottom-text-fo-texhnology-trigger">
+                <div>
+                    <h3 class="text-3xl">06+</h3>
+                    <p>Industries served</p>
+                </div>
+
+                <div>
+                    <h3 class="text-3xl">100+</h3>
+                    <p>Projects Delivered</p>
+                </div>
+
+                <div>
+                    <h3 class="text-3xl">99.9%</h3>
+                    <p>Production uptime</p>
+                </div>
+
+                <div>
+                    <h3 class="text-3xl">100%</h3>
+                    <p>Scalable architectures</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="assests/js/toogle-navbarmobile-size.js"></script>
+    <script src="assests/js/aboutus/digital-custom-soultion-card-aboutus.js"></script>
+</body>
+</html>
