@@ -319,3 +319,130 @@ nav div a:hover {
   line-height: 36px;
   letter-spacing: 0%;
 }
+
+
+/* road map section */
+.road-map-badges text {
+  background-color: var(--purple-color-mixed-25);
+  color: var(--white-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 14px;
+  line-height: 29px;
+  letter-spacing: 0%;
+  gap: 12px;
+}
+
+.road-map-badges text .text-2{
+  background-color: var(--purple-color-mixed-25);
+  border: 1.11px solid var(--purple-color-back);
+  gap: 12px;
+}
+
+.road-map-mainheadings-links-down h1 {
+  background: linear-gradient(180deg, #fff, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 55px;
+  line-height: 80px;
+  letter-spacing: -4%;
+}
+
+.road-map-mainheadings-links-down p {
+  color: var(--gray-color-40);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-medium);
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.foter-horizontal-row {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.3), rgba(232, 232, 232, 0.64) 27.88%, #c5c5c5 56.73%, rgba(153, 153, 153, 0.3)) border-box;
+  border-top: 1.1px solid transparent;
+  box-sizing: border-box;
+}
+
+.road-map-all-card-styling h2 {
+  background: linear-gradient(180deg, #fff, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font-satoshi);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 88px;
+  line-height: 97px;
+  letter-spacing: -4%;
+}
+
+.road-map-all-card-styling p {
+  color: var(--white-half);
+  font-family: var(--font-satoshi);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-medium);
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+
+
+/* about us founder section */
+.about-us-section span {
+  background-color: var(--purple-color-mixed-25);
+  color: var(--white-color);
+  gap: 12px;
+}
+
+.about-us-section span .span-2{
+  background-color: var(--purple-color-mixed-25);
+  border: 1.11px solid var(--purple-color-back);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  gap: 12px;
+}
+
+.about-us-section h2 {
+  color: var(--white-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 60px;
+  line-height: 110%;
+  letter-spacing: -2%;
+  width: 650px;
+}
+
+.about-us-section h2 .center-color-purple{
+  color: var(--teal-green-color);
+  background: transparent;
+}
+
+.about-us-section p {
+  color: var(--white-half);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 14pX;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.about-us-section button {
+  background-color: var(--teal-green-color);
+  color: var(--dark-black-selection-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 18px;
+  letter-spacing: 0%;
+  line-height: 29px;
+}

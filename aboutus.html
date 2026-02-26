@@ -17,7 +17,6 @@
     </head>
 
 <body class="bg-[#0a0a1a] overflow-x-hidden">
-        
     <section class="relative min-h-screen flex flex-col items-center overflow-hidden star-background">
         <div class="absolute right-0 top-0 w-[600px] h-[600px] bg-purple-600 opacity-30 blur-[150px] rounded-full"></div>
         
@@ -69,6 +68,7 @@
         </div>
     </section>
     
+
     <section class="relative py-10 overflow-hidden bg-[#0C0529] grid-background-section">
         
         <div class="absolute w-[600px] h-[400px] bg-purple-600 opacity-30 blur-[130px] rounded-full top-70 left-1/2 -translate-x-2/2"></div>
@@ -118,10 +118,80 @@
         </div>
     </section>
 
+    
+    <section class="relative py-10 overflow-hidden bg-[#0C0529]">
+        <div class="max-w-6xl mx-auto road-map-badges">
+            <text class="inline-block px-2 py-2 rounded-full mb-4">
+                <text class="text-2 py-1 px-4 rounded-full">Road Map</text>
+            </text>
 
+            <div class="absolute w-[600px] h-[400px] bg-purple-700 opacity-30 blur-[130px] rounded-full top-130 left-1/2 -translate-x-2/2"></div>
+            <div class="absolute w-[600px] h-[400px] bg-purple-700 opacity-30 blur-[130px] rounded-full top-60 left-1/3 -translate-x-2/2"></div>
+
+            <div class="mt-6 flex flex-col md:flex-row md:items-end justify-between gap-4 road-map-mainheadings-links-down">
+                <h1 class="text-4xl md:text-5xl">Featured Case Studies</h1>
+                <p class="max-w-sm">
+                    Proven delivery across industries.Trusted outcomes from real projects.
+                </p>
+            </div>
+
+            <div class="border-t my-10 foter-horizontal-row"></div>
+
+            <div id="roadmap-container" class="grid grid-cols-1 md:grid-cols-3 gap-y-16 gap-x-12">
+            </div>
+        </div>
+    </section>
+
+
+    <section class=" relative px-5 md:px-20 py-10 md:py-10 bg-[#0C0529] overflow-hidden">
+        <div class="absolute inset-0 grid-background-section z-10 pointer-events-none mt-20 max-w-3xl"></div>
+
+        <div class="absolute -left-40 bottom-0 w-[600px] h-[300px] 
+                bg-cyan-600 opacity-40 blur-[150px] 
+                rounded-full z-0">
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+            <div class="about-us-section text-center md:text-left">
+                <span class="inline-block px-2 py-3 rounded-full mb-4">
+                    <span class="span-2 py-2 px-4 rounded-full">About Founder</span>
+                </span>
+                
+                <h2 class="mt-6 leading-tight">
+                    Precision-Led<br> <span class="center-color-purple">Outcome</span>-Driven.
+                </h2>
+
+                <p class="mt-6 leading-relaxed text-white">
+                    Finite Loop is founded and led by a hands-on software engineer with deep experience in building AI-powered systems, scalable ecommerce platforms, and secure enterprise applications.
+                    <br><br>
+                    With a strong foundation in full-stack development and system architecture, the focus has always been on precision-led engineering  designing software that performs reliably under real-world complexity, scale, and security demands.
+                    Rather than operating at arm’s length, the founder remains closely involved in:
+                    <br><br>
+                    <ul class="list-disc pl-5 space-y-2 text-white">
+                        <li>Solution architecture</li>
+                        <li>Technical decision-making</li>
+                        <li>Code quality and system design</li>
+                        <li>Delivery standards and outcomes</li>
+                    </ul>
+                    <br>
+                    <p>This ensures that every project reflects the same engineering discipline and accountability that Finite Loop is built on.</p>
+                </p>
+            </div>
+            <div>
+                <img src="assests/images/About-Us-chacha.jpg"
+                    class="rounded-2xl w-full shadow-lg grayscale hover:grayscale-0 transition duration-500"
+                    alt="User Image" width="660" height="670">
+            </div>
+        </div>
+    </section>
+
+
+    
 
 
     <script src="assests/js/toogle-navbarmobile-size.js"></script>
     <script src="assests/js/aboutus/digital-custom-soultion-card-aboutus.js"></script>
+    <script src="assests/js/aboutus/roadmap-card.js"></script>
 </body>
 </html>
