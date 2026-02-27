@@ -596,18 +596,88 @@ nav div a:hover {
 }
 
 
+/* milestone 2 section */
+.milestone-2-all-badges span {
+  background-color: var(--purple-color-mixed-25);
+  color: var(--white-color);
+  gap: 12px;
+}
+
+.milestones-badge-all span .span-2{
+  background-color: var(--purple-color-mixed-25);
+  border: 1.11px solid var(--purple-color-back);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  gap: 12px;
+}
+
+.milestone-2-all-badges h2 {
+  color: var(--dark-gray-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 60px;
+  line-height: 110%;
+  letter-spacing: -4%;
+}
+
+.milestone-2-all-badges p {
+  color: var(--white-half);
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-300);
+  font-style: var(--font-light);
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+.culutre-work-env-cards {
+  background-color: var(--background-dark-gray-80);
+  border: 1.11px solid var(#FFFFFF33);
+}
+
+.culutre-work-env-cards span{
+  color: var(--teal-green-color);
+  font-family: var(--font-outfit);
+  font-style: var(--font-regular);
+  font-weight: var(--font-weight-400);
+  font-size: 35px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.culutre-work-env-cards h3{
+  color: var(--white-color);
+  font-family: var(--font-outfit);
+  font-style: var(--font-medium);
+  font-weight: var(--font-weight-500);
+  font-size: 22px;
+  line-height: 110%;
+  letter-spacing: -2%;
+}
+
+.culutre-work-env-cards p{
+  color: var(--white-color);
+  font-family: var(--font-outfit);
+  font-style: var(--font-light);
+  font-weight: var(--font-weight-300);
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  opacity: 0.4;
+}
+
+.culutre-work-env-cards:hover {
+  background-color: var(--background-card-dark-to-light-teal-20);
+  border: 1.11px solid var(--teal-green-color);
+}
 
 
-
-
-
-
-
-
-
-
-
-
+/* what our client say section */
 @keyframes scrollLeft {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
@@ -706,34 +776,6 @@ nav div a:hover {
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* lets build what matter section */
