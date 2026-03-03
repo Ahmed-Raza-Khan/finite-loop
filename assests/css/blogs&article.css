@@ -250,6 +250,45 @@ nav div a:hover {
     letter-spacing: -4%;
 }
 
+@media (min-width: 425px) {
+  .blog-article-main-heading, .green-blog-article-heading {
+      font-size: 30px;
+  }
+  .must-read-post {
+      padding: 2.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .blog-article-main-heading, .green-blog-article-heading {
+      font-size: 40px;
+  }
+  .must-read-post h2 {
+      font-size: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  .blog-article-main-heading, .green-blog-article-heading {
+      font-size: 64px;
+      line-height: 80px;
+  }
+  .must-read-post h2 {
+      font-size: 29px;
+      line-height: 36px;
+  }
+  .must-read-post p {
+      font-size: 18px;
+      line-height: 200%;
+  }
+  .must-read-post span {
+      font-size: 16px;
+  }
+  .read-post-date {
+      font-size: 18px;
+  }
+}
+
 
 /* latest section */
 .grid-background-section {
@@ -325,6 +364,37 @@ nav div a:hover {
 .latest-post-button-last {
   border: 1px solid #404040;
   color: var(--teal-green-color);
+}
+
+@media (min-width: 425px) {
+  .latest-post-section-all h1 {
+    font-size: 40px;
+  }
+  .latest-post-selector {
+    font-size: 14px;
+  }
+  .latest-post-selector {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .latest-post-section-all h1 {
+    font-size: 50px;
+  }
+  .cards-grid-post h3 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .latest-post-section-all h1 {
+    font-size: 63px;
+    line-height: 80px;
+  }
+  .cards-grid-post span {
+    font-size: 13px;
+  }
 }
 
 
