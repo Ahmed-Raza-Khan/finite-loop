@@ -228,17 +228,24 @@ nav div a:hover {
 
 
 /* categories-section */
-.page-background {
+/* .page-background {
   background-color: #0d0124;
   background-image: 
       radial-gradient(circle at 10% 20%, rgba(139, 92, 246, 0.2) 0%, transparent 50%),
       radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.2) 0%, transparent 50%);
   background-size: cover;
-}
+} */
 
 .category-badge-group .badge {
-  background-color: #1e053f;
-  border: 1px solid rgba(139, 92, 246, 0.4);
+  background-color: transparent;
+  border: 1px solid var(--teal-green-color);
+  font-size: 11px;
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  color: var(--teal-green-color);
+  line-height: 17px;
+  letter-spacing: 0%;
   transition: all 0.3s ease;
 }
 
@@ -249,6 +256,41 @@ nav div a:hover {
 
 .latest-post-link:hover .post-title {
   color: #d8b4fe;
+}
+
+.future-digital-product {
+  font-size: 24px;
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-200);
+  font-style: italic;
+  color: var(--white-half);
+  line-height: 35px;
+  letter-spacing: 0%;
+  border-radius: 0 11.111px 11.111px 0;
+  border-left: 5.556px solid #5CFFC5;
+  background: linear-gradient(214deg, #21212C -13.97%, #21212C 68.06%, rgba(92, 255, 197, 0.10) 305.37%);
+}
+
+.conclusion-badges-all .badge{
+  background-color: #8FFFD733;
+  border: none;
+  font-size: 12px;
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  color: var(--teal-green-color);
+  line-height: 17px;
+  letter-spacing: 0%;
+  transition: all 0.3s ease;
+}
+
+.mandy-candy-cards text {
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 17px;
+  line-height: 29px;
+  letter-spacing: 0%;
 }
 
 
