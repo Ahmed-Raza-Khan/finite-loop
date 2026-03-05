@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet"
+            />
+        <title>Finite-Loop | Blog Detail</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="icon" type="image/x-icon" href="assests/images/finite-loop-logo-main.png">
+        <link rel="stylesheet" href="assests/css/blog-detil.css">
+    </head>
+
+<body class="bg-[#0a0a1a] overflow-x-hidden">
+    <section class="relative min-h-screen flex flex-col items-center overflow-hidden star-background">
+        <div class="absolute right-0 top-0 w-[600px] h-[600px] bg-purple-600 opacity-30 blur-[150px] rounded-full"></div>
+        
+        <div class="absolute inset-0 light-background w-full"></div>
+
+        <nav class="relative z-50 w-[90%] mt-8 md:mt-12 rounded-full px-10 md:px-15 py-3 flex items-center justify-between shadow-xl navbar-main-all">
+            <div class="hidden md:flex gap-8">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="#">Services</a>
+            </div>
+
+            <div class="z-10">
+                <a href="index.html">
+                    <img src="assests/images/finite-loop-logo-main.png" alt="logo" class="h-11 md:h-[60px] w-auto">
+                </a>
+            </div>
+
+            <div class="hidden md:flex gap-8">
+                <a href="blogs-and-article.html" class="active">Blogs & Articles</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <button id="menuToggle" class="md:hidden text-white text-3xl z-50">
+                ☰
+            </button>
+
+            <div id="mobileMenu"
+                class="fixed top-0 right-[-100%] w-[75%] h-full bg-purple-600/0 backdrop-blur-xl transition-all duration-500 z-40 flex flex-col items-center justify-center gap-8 text-white text-xl underline underline-offset-4">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About</a>
+                <a href="#">Services</a>
+                <a href="blogs-and-article.html" class="active">Blogs & Articles</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+
+        <div class="relative z-10 flex flex-col items-center mt-12 px-6 max-w-max mx-1 text-center">
+            <div class="w-full flex justify-start mb-24 blogs-article-amin-icon-side">
+                <a href="blogs-and-article.html" class="flex items-center gap-3 text-xl hover:opacity-80 transition-opacity">
+                    <img src="assests/images/images-blog-detail/Left.svg" alt="" width="29" height="24">
+                    <span>Back to Blogs & Articles</span>
+                </a>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-center gap-4 mb-8 blogs-articles-bagde-center">
+                <p class="text-gray-300 text-lg">Marry Candy</p>
+                <text class="w-1.5 h-1.5 rounded-full blogs-hero-dots"></text>
+                <span class="inline-block px-2 py-3 rounded-full">
+                    <span class="span-2 py-1 px-3 rounded-full">Industry Trends</span>
+                </span>
+                <text class="w-1.5 h-1.5 rounded-full blogs-hero-dots"></text>
+                <p class="text-gray-300 text-lg">January 16, 2025</p>
+            </div>
+
+            <h1 class="text-4xl md:text-7xl leading-[1.1] blogs-hero-bottom-heading">
+                Technology Trends Reshaping <br class="hidden md:block"> 
+                Digital Products in 2026
+            </h1>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col items-center">
+
+            <div class="w-full max-w-6xl mb-16 rounded-2xl overflow-hidden shadow-2xl">
+                <img src="assests/images/images-blog-detail/hero-image-full.png" alt="Digital Product Evolution Concept" class="object-cover ">
+            </div>
+
+            <div class="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-3 gap-12">
+
+                <div class="lg:col-span-2 space-y-12">
+                    
+                    <p class="text-lg leading-relaxed text-gray-300">
+                        Technology is evolving faster than ever, reshaping how digital products are designed, built, and scaled. In 2026, businesses are no longer competing only on features but on experience, intelligence, and adaptability. Emerging technologies are redefining user expectations and pushing product teams to innovate continuously.
+                    </p>
+
+                    <div>
+                        <h2 class="text-3xl font-medium text-white mb-6">What's Driving Digital Product Evolution?</h2>
+                        
+                        <div class="space-y-6 text-lg leading-relaxed text-gray-300">
+                            <p>Digital products today are shaped by a combination of user behavior, data intelligence, and scalable infrastructure. Advancements in cloud computing, artificial intelligence, and development frameworks are enabling faster innovation while reducing time to market.</p>
+                            <p>Modern products are expected to be secure, personalized, performant, and seamlessly connected across platforms.</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="text-3xl font-medium text-white mb-8">Key Technology Trends in 2026</h2>
+                        
+                        <div class="space-y-10">
+                            <div class="flex gap-5">
+                                <span class="text-2xl font-bold text-white pt-1">1.</span>
+                                <div>
+                                    <h3 class="text-2xl font-medium text-white mb-3">AI-First Product Design</h3>
+                                    <p class="text-lg leading-relaxed text-gray-300">Artificial intelligence is no longer an add-on—it's embedded into product workflows. From personalization and predictive analytics to automated support and decision-making, AI is becoming a core product layer.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-5">
+                                <span class="text-2xl font-bold text-white pt-1">2.</span>
+                                <div>
+                                    <h3 class="text-2xl font-medium text-white mb-3">Composable & Modular Architectures</h3>
+                                    <p class="text-lg leading-relaxed text-gray-300">Businesses are moving away from monolithic systems. Headless, API-first, and microservice-based architectures allow teams to build flexible products that scale efficiently and adapt quickly to change.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-5">
+                                <span class="text-2xl font-bold text-white pt-1">3.</span>
+                                <div>
+                                    <h3 class="text-2xl font-medium text-white mb-3">Experience-Driven Development</h3>
+                                    <p class="text-lg leading-relaxed text-gray-300">UX is now a competitive advantage. Products are increasingly designed around user journeys, performance optimization, and accessibility, ensuring frictionless experiences across devices.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-5">
+                                <span class="text-2xl font-bold text-white pt-1">4.</span>
+                                <div>
+                                    <h3 class="text-2xl font-medium text-white mb-3">Cloud-Native & Serverless Infrastructure</h3>
+                                    <p class="text-lg leading-relaxed text-gray-300">Cloud-native tools enable rapid deployment, automatic scaling, and reduced operational overhead, allowing teams to focus more on product innovation than infrastructure management.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-6">
+                        <h2 class="text-3xl font-medium text-white mb-6">Navigating the Future Landscape</h2>
+                        <p class="text-lg leading-relaxed text-gray-300">
+                            Understanding these trends is just the first step. Successful implementation requires a shift in mindset—from feature-centric development to an outcome-oriented approach. This section would further explore how teams must adapt their internal processes to fully leverage new technology. We discuss the cultural shifts in engineering teams and the importance of data literacy across the entire product organization.
+                        </p>
+                        <p class="text-lg leading-relaxed text-gray-300">
+                            Additionally, ethical considerations around data usage and AI transparency will become critical differentiation points. Businesses that prioritize trust and user privacy will build stronger long-term brand loyalty.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h2 class="text-3xl font-medium text-white mb-6">Conclusion</h2>
+                        <p class="text-lg leading-relaxed text-gray-300">
+                            The technological landscape of 2026 presents an incredible opportunity for innovation, but also significant complexity. For product leaders and engineers, success will depend on more than just adopting new tools; it will require a strategic approach that prioritizes adaptability, user experience, and ethical intelligence.
+                        </p>
+                    </div>
+
+                    <main class="container mx-auto max-w-5xl px-4 py-12">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                            
+                            <div class="md:col-span-2 space-y-10">
+
+                                <div class="rounded-2xl p-8 border-l-4 border-accent-cyan" style="background: linear-gradient(135deg, rgba(30, 30, 46, 0.6) 0%, rgba(30, 30, 46, 0) 100%);">
+                                    <p class="text-3xl text-text-primary font-medium leading-snug">
+                                        "The future of digital products belongs to those who build with intelligence, flexibility, and users at the center."
+                                    </p>
+                                </div>
+
+                                <div class="flex flex-wrap gap-3">
+                                    <span class="inline-block rounded-full bg-tag-cyan px-6 py-2 text-base font-medium text-tag-text-cyan border border-tag-text-cyan/30">
+                                        #IndustryTrends
+                                    </span>
+                                    <span class="inline-block rounded-full bg-tag-cyan px-6 py-2 text-base font-medium text-tag-text-cyan border border-tag-text-cyan/30">
+                                        #DeveloperGuides
+                                    </span>
+                                    <span class="inline-block rounded-full bg-tag-cyan px-6 py-2 text-base font-medium text-tag-text-cyan border border-tag-text-cyan/30">
+                                        #CodingTips
+                                    </span>
+                                    <span class="inline-block rounded-full bg-tag-cyan px-6 py-2 text-base font-medium text-tag-text-cyan border border-tag-text-cyan/30">
+                                        #SoftwareDevelopment
+                                    </span>
+                                    <span class="inline-block rounded-full bg-tag-cyan px-6 py-2 text-base font-medium text-tag-text-cyan border border-tag-text-cyan/30">
+                                        #LearnToCode
+                                    </span>
+                                    <span class="inline-block rounded-full bg-tag-cyan px-6 py-2 text-base font-medium text-tag-text-cyan border border-tag-text-cyan/30">
+                                        #ProgrammingHelp
+                                    </span>
+                                    <span class="inline-block rounded-full bg-tag-cyan px-6 py-2 text-base font-medium text-tag-text-cyan border border-tag-text-cyan/30">
+                                        #WebDevelopment
+                                    </span>
+                                </div>
+
+                                <div class="flex items-center justify-between pt-6 border-t border-gray-700/50">
+                                    <div class="flex items-center gap-6">
+                                        <button class="text-icon-gray hover:text-text-primary">
+                                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                            </svg>
+                                        </button>
+                                        <button class="text-icon-gray hover:text-text-primary">
+                                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="flex items-center gap-3 text-icon-gray">
+                                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V8z" />
+                                        </svg>
+                                        <span class="text-lg font-medium">35 Responses</span>
+                                    </div>
+                                </div>
+
+                                <div class="rounded-3xl bg-card-bg p-10 mt-12 shadow-xl">
+                                    <div class="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
+                                        <div class="flex items-center gap-6">
+                                            <div class="h-24 w-24 rounded-full bg-gray-600 flex items-center justify-center">
+                                                <span class="text-5xl text-gray-400 font-bold">M</span> </div>
+                                            <div class="text-center md:text-left">
+                                                <h3 class="text-3xl font-bold text-text-primary">Marry Candy</h3>
+                                                <p class="text-xl text-text-secondary">Content Writer</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-center gap-4">
+                                            <a href="#" class="h-10 w-10 rounded-full bg-icon-social-bg flex items-center justify-center text-icon-gray hover:bg-gray-600">
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M13.4,2c-3.1,0-5.4,2.1-5.4,5.3v2.8h-3v3.8h3v10.1c1.3,0.1,2.5,0.1,3.8,0V14.1h3.3l0.5-3.8H11.8v-3c0-1.1,0.3-1.8,1.9-1.8h2.1V2H13.4z"></path></svg>
+                                            </a>
+                                            <a href="#" class="h-10 w-10 rounded-full bg-icon-social-bg flex items-center justify-center text-icon-gray hover:bg-gray-600">
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12,2.1c3.2,0,3.6,0,4.9,0.1c1.2,0.1,1.8,0.3,2.2,0.5c0.6,0.2,1,0.5,1.4,0.9c0.4,0.4,0.7,0.8,0.9,1.4c0.2,0.4,0.4,1.1,0.5,2.2c0.1,1.3,0.1,1.6,0.1,4.9c0,3.2,0,3.6-0.1,4.9c-0.1,1.2-0.3,1.8-0.5,2.2c-0.2,0.6-0.5,1-0.9,1.4c-0.4,0.4-0.8,0.7-1.4,0.9c-0.4,0.2-1.1,0.4-2.2,0.5c-1.3,0.1-1.6,0.1-4.9,0.1s-3.6,0-4.9-0.1c-1.2-0.1-1.8-0.3-2.2-0.5c-0.6-0.2-1-0.5-1.4-0.9c-0.4-0.4-0.7-0.8-0.9-1.4c-0.2-0.4-0.4-1.1-0.5-2.2c-0.1-1.3-0.1-1.6-0.1-4.9c0-3.2,0-3.6,0.1-4.9c0.1-1.2,0.3-1.8,0.5-2.2c0.2-0.6,0.5-1,0.9-1.4c0.4-0.4,0.8-0.7,1.4-0.9c0.4-0.2,1.1-0.4,2.2-0.5c1.3-0.1,1.6-0.1,4.9-0.1 M12,0C8.7,0,8.3,0,7,0.1C5.7,0.1,4.8,0.3,4.1,0.6C3.3,0.9,2.6,1.3,1.9,1.9c-0.6,0.6-1,1.3-1.3,2.1C0.3,4.8,0.1,5.7,0.1,7C0,8.3,0,8.7,0,12s0,3.7,0.1,5c0.1,1.3,0.3,2.2,0.6,2.9c0.3,0.8,0.7,1.5,1.3,2.1c0.6,0.6,1.3,1,2.1,1.3c0.7,0.3,1.6,0.5,2.9,0.6C8.3,24,8.7,24,12,24s3.7,0,5-0.1c1.3-0.1,2.2-0.3,2.9-0.6c0.8-0.3,1.5-0.7,2.1-1.3c0.6-0.6,1-1.3,1.3-2.1c0.3-0.7,0.5-1.6,0.6-2.9C24,15.7,24,15.3,24,12s0-3.7-0.1-5c-0.1-1.3-0.3-2.2-0.6-2.9C23.1,3.3,22.7,2.6,22.1,1.9c-0.6-0.6-1.3-1-2.1-1.3C19.2,0.3,18.3,0.1,17,0.1C15.7,0,15.3,0,12,0z"></path><path d="M12,5.8c-3.4,0-6.2,2.8-6.2,6.2c0,3.4,2.8,6.2,6.2,6.2c3.4,0,6.2-2.8,6.2-6.2C18.2,8.6,15.4,5.8,12,5.8z M12,16.2c-2.3,0-4.2-1.9-4.2-4.2s1.9-4.2,4.2-4.2s4.2,1.9,4.2,4.2S14.3,16.2,12,16.2z"></path><path d="M18.4,4.2c-0.8,0-1.4,0.6-1.4,1.4c0,0.8,0.6,1.4,1.4,1.4c0.8,0,1.4-0.6,1.4-1.4C19.8,4.8,19.2,4.2,18.4,4.2z"></path></svg>
+                                            </a>
+                                            <a href="#" class="h-10 w-10 rounded-full bg-icon-social-bg flex items-center justify-center text-icon-gray hover:bg-gray-600">
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19,3c1.1,0,2,0.9,2,2s-0.9,2-2,2s-2-0.9-2-2S17.9,3,19,3 M5,21.9h-3.8V8.9H5V21.9z M13.8,21.9H10V14c0-1,0.8-1.8,1.8-1.8S13.8,13,13.8,14V21.9z M22,21.9h-3.8V14c0-1-0.8-1.8-1.8-1.8S14.8,13,14.8,14V21.9z M22,12c0-1.6-1.3-2.9-2.9-2.9s-2.9,1.3-2.9,2.9v1.8H22V12z"></path></svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <p class="text-xl text-text-secondary leading-relaxed">
+                                        A blockchain analyst with 8+ years of experience in cryptocurrency and decentralized finance, Michael writes insightful articles to guide investors through the complexities of crypto, from blockchain basics to DeFi trends.
+                                    </p>
+                                </div>
+
+                            </div> <div class="hidden md:block"></div>
+
+                        </div>
+                    </main>
+                </div>
+            
+                <div class="p-8 rounded-3xl" style="background-color: #17072d;">
+                    
+                    <div class="relative mb-10">
+                        <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </span>
+                        <input type="text" placeholder="Search" class="w-full bg-[#1e053f] border border-gray-700/50 rounded-full py-3 pl-12 pr-4 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-purple-500 focus:border-purple-500 transition-all">
+                    </div>
+
+                    <h4 class="text-2xl font-medium text-white mb-6">Categories</h4>
+                    
+                    <div class="flex flex-wrap gap-3 mb-12 category-badge-group">
+                        <button class="badge text-xs px-4 py-1.5 rounded-full text-purple-200 border border-purple-500/30">
+                            Best practices
+                        </button>
+                        <button class="badge text-xs px-4 py-1.5 rounded-full text-purple-200 border border-purple-500/30">
+                            Industry insights
+                        </button>
+                        <button class="badge text-xs px-4 py-1.5 rounded-full text-purple-200 border border-purple-500/30">
+                            Technology tutorials
+                        </button>
+                        <button class="badge text-xs px-4 py-1.5 rounded-full text-purple-200 border border-purple-500/30 hover:bg-white hover:text-black">
+                            Industry trends
+                        </button>
+                        <button class="badge text-xs px-4 py-1.5 rounded-full text-purple-200 border border-purple-500/30">
+                            Ecommerce optimization
+                        </button>
+                        <button class="badge text-xs px-4 py-1.5 rounded-full text-purple-200 border border-purple-500/30">
+                            AI implementation
+                        </button>
+                        <button class="badge text-xs px-4 py-1.5 rounded-full text-purple-200 border border-purple-500/30">
+                            Trends & advice
+                        </button>
+                    </div>
+
+                    <h4 class="text-2xl font-medium text-white mb-6">Latest Post</h4>
+                    <div class="space-y-6">
+                        <a href="#" class="latest-post-link block group">
+                            <h5 class="post-title text-xl font-medium text-white mb-2 transition-colors">Building Secure Applications From Day One</h5>
+                            <div class="flex items-center justify-start gap-4 text-sm text-gray-500">
+                                <span class="text-xs px-4 py-1 rounded-full text-teal-300 border border-teal-600/30" style="background-color: #1a2a2a;">
+                                    Security insights
+                                </span>
+                                <span>Jan 12, 2026</span>
+                            </div>
+                        </a>
+
+                        <a href="#" class="latest-post-link block group">
+                            <h5 class="post-title text-xl font-medium text-white mb-2 transition-colors">Building Software for Long-Term Maintainability</h5>
+                            <div class="flex items-center justify-start gap-4 text-sm text-gray-500">
+                                <span class="text-xs px-4 py-1 rounded-full text-teal-300 border border-teal-600/30" style="background-color: #1a2a2a;">
+                                    Industry trends
+                                </span>
+                                <span>Jan 12, 2026</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <h4 class="text-2xl font-medium text-white mt-12 mb-6">Popular Tags</h4>
+                    
+                    <div class="space-y-1">
+                        <a href="#" class="block text-gray-500 hover:text-white transition-colors group">
+                            <div class="flex items-center justify-between gap-4">
+                                <span class="text-base">#ecommerce</span>
+                                <div class="flex-grow border-b border-gray-700/50 group-hover:border-purple-500/50 transition-colors"></div>
+                            </div>
+                        </a>
+                        <a href="#" class="block text-gray-500 hover:text-white transition-colors group">
+                            <div class="flex items-center justify-between gap-4 py-1.5">
+                                <span class="text-base">#development</span>
+                                <div class="flex-grow border-b border-gray-700/50 group-hover:border-purple-500/50 transition-colors"></div>
+                            </div>
+                        </a>
+                        <a href="#" class="block text-gray-500 hover:text-white transition-colors group">
+                            <div class="flex items-center justify-between gap-4 py-1.5">
+                                <span class="text-base">#security insights</span>
+                                <div class="flex-grow border-b border-gray-700/50 group-hover:border-purple-500/50 transition-colors"></div>
+                            </div>
+                        </a>
+                        <a href="#" class="block text-gray-500 hover:text-white transition-colors group">
+                            <div class="flex items-center justify-between gap-4 py-1.5">
+                                <span class="text-base">#industrytrends</span>
+                                <div class="flex-grow border-b border-gray-700/50 group-hover:border-purple-500/50 transition-colors"></div>
+                            </div>
+                        </a>
+                        <a href="#" class="block text-gray-500 hover:text-white transition-colors group">
+                            <div class="flex items-center justify-between gap-4 py-1.5">
+                                <span class="text-base">#aiimplementationguides</span>
+                                <div class="flex-grow border-b border-gray-700/50 group-hover:border-purple-500/50 transition-colors"></div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="relative py-10 bg-[#0C0529] overflow-hidden max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 latest-post-section-all grid-background-section">
+        <div class="absolute w-[800px] h-[400px] bg-teal-600 opacity-30 blur-[130px] rounded-full top-70 left-1/3 -translate-x-2/3"></div>
+
+        <h1 class="text-center text-4xl font-bold mb-10"><span class="text-teal-300">Latest</span> Post</h1>
+
+        <div id="category-filter" class="bg-gray-500/40 backdrop-blur-md border border-gray-700/50 rounded-full p-2 flex flex-wrap justify-center gap-2 mb-14 shadow-lg max-w-max mx-auto">
+        </div>
+
+        <div id="cards-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        </div>
+
+        <!-- <div class="text-center mt-16">
+            <button class="px-10 py-3.5 rounded-full font-semibold hover:bg-gray-800 hover:border-teal-400/30 transition-all duration-300 text-sm latest-post-button-last">
+                See More Post
+            </button>
+        </div> -->
+    </section>
+
+
+    <section class="relative py-24 bg-[#0C0529] overflow-hidden grid-background-section">
+
+        <div class="max-w-6xl mx-auto text-center mb-16 px-4 what-our-client-say-heading">
+
+            <span class="inline-block px-3 py-4 rounded-full mb-4">
+                <span class="span-2 py-2 px-3 rounded-full">What Our Clients Say</span>
+            </span>
+
+            <h2 class="text-4xl md:text-5xl">
+                Precision That Clients Trust
+            </h2>
+
+        </div>
+
+        <div class="absolute w-[300px] h-[300px] bg-purple-600 opacity-30 blur-[130px] rounded-full top-10 left-2/2 -translate-x-1/2"></div>
+
+        <div class="relative overflow-hidden mb-10 py-3 user-slider-fade">
+            <div id="sliderRow1" class="flex gap-6 w-max"></div>
+        </div>
+
+        <div class="relative overflow-hidden py-3 user-slider-fade">
+            <div id="sliderRow2" class="flex gap-6 w-max"></div>
+        </div>
+    </section>
+
+
+    <section class="bg-[#0C0529] px-5 md:px-10 py-5">
+        <div class="relative overflow-hidden rounded-2xl text-center py-12 md:py-16 px-5 md:px-20 background-bulid-matters">
+
+            <div class="absolute w-110 h-64 bg-[#c2b2e3] rounded-full blur-2xl bottom-[-60px] left-1/2 background-bulid-matters-circle-down">
+            </div>
+
+            <div class="relative z-10 background-bulid-matters-text">
+                <h2 class="text-3xl md:text-5xl">
+                    Let’s Build What Matters
+                </h2>
+
+                <p class="mt-3 md:text-base">
+                    Schedule a consultation to discuss your goals and technical needs.
+                </p>
+
+                <button class="mt-8 px-8 py-3 rounded-full transition duration-300">
+                    Book a Consultation
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="relative bg-[#0C0529] px-5 md:px-20 py-5 overflow-hidden">
+
+        <div class="absolute inset-0 bg-grid-pattern opacity-20 pointer-events-none h-40 grid-footer-slider-fade"></div>
+        <div class="absolute inset-0 bg-oval-circle-grid-pattern pointer-events-none h-40 w-full"></div>
+
+            <div class="relative z-10">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+
+                    <a href="index.html"><img src="assests/images/finite-loop-logo-main.png" alt="Finite Loop Logo" class="h-14 w-40"></a>
+
+                    <div class="flex gap-4">
+                        <img src="assests/images/footer-logo-facebook.svg" class="cursor-pointer" alt="icon-social" width="25">
+                        <img src="assests/images/footer-logo-Instagram.svg" class="cursor-pointer" alt="icon-social" width="25">
+                        <img src="assests/images/footer-logo-Twitter.svg" class="cursor-pointer" alt="icon-social" width="25">
+                        <img src="assests/images/footer-logo-Pinterest.svg" class="cursor-pointer" alt="icon-social" width="25">
+                    </div>
+                </div>
+
+                <div class="border-t my-10 foter-horizontal-row"></div>
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+                    <div class="foter-heading-all-links">
+                        <h3 class="mb-4">Quick Links</h3>
+                        <ul class="space-y-5">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li>Service</li>
+                            <li>Technology</li>
+                            <li>Case studies</li>
+                        </ul>
+                    </div>
+
+                    <div class="foter-heading-all-links">
+                        <h3 class="mb-4">Services</h3>
+                        <ul class="space-y-5">
+                            <li>Ecommerce Solutions</li>
+                            <li>Platform Development</li>
+                            <li>Cybersecurity Solutions</li>
+                            <li>Mobile App Development</li>
+                            <li>Custom Web Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="foter-heading-all-links">
+                        <h3 class="mb-4">More Links</h3>
+                        <ul class="space-y-5">
+                            <li>FAQs</li>
+                            <li>Resources</li>
+                            <li>Contact</li>
+                            <li><a href="blogs-and-article.html">Blogs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="foter-heading-all-links-newsletter">
+                        <h3 class="mb-4">
+                            Stay updated on AI-first, precision-led engineering.
+                        </h3>
+
+                        <div class="flex mt-6 p-1 rounded-full overflow-hidden foter-heading-all-links-newsletter-input w-full md:w-80">
+                            <input type="email"placeholder="Enter your email" class="bg-transparent px-4 py-3 w-full focus:outline-none">
+
+                            <button class="px-7 py-0 rounded-full">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="border-t my-10 foter-horizontal-row"></div>
+
+            <p class="text-center footer-copyright-text">
+                © 2026 Finite Loop. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="assests/js/blog-deatil/toogle-navbarmobile-size.js"></script>
+    <script src="assests/js/blog-deatil/read-post-card.js"></script>
+    <script src="assests/js/blog-deatil/our-client-card-section.js"></script>
+    <script src="assests/js/blog-deatil/latest-post-card.js"></script>
+</body>
+</html>
