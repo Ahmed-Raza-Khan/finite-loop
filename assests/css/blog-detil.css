@@ -226,6 +226,61 @@ nav div a:hover {
   -webkit-text-fill-color: transparent;
 }
 
+@media (min-width: 425px) {
+  .blogs-article-amin-icon-side span {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .blogs-articles-bagde-center p {
+    font-size: 15px;
+  }
+
+  .blogs-hero-bottom-heading {
+    font-size: 34px;
+    line-height: 44px;
+  }
+}
+
+@media (min-width: 600px) {
+  .blogs-article-amin-icon-side span {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .blogs-articles-bagde-center p {
+    font-size: 20px;
+  }
+
+  .blogs-hero-bottom-heading {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .blogs-article-amin-icon-side span {
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  .blogs-articles-bagde-center p {
+    font-size: 23px;
+    line-height: 36px;
+  }
+
+  .blogs-articles-bagde-center span .span-2 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .blogs-hero-bottom-heading {
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: -2%;
+  }
+}
+
 
 /* categories-section */
 /* .page-background {
@@ -291,6 +346,49 @@ nav div a:hover {
   font-size: 17px;
   line-height: 29px;
   letter-spacing: 0%;
+}
+
+@media (min-width: 425px) {
+    .future-digital-product {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .mandy-candy-cards h3 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 600px) {
+    .future-digital-product {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    h2 {
+        font-size: 28px !important;
+    }
+    
+    .category-badge-group .badge {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .future-digital-product {
+        font-size: 24px;
+        line-height: 35px;
+        padding: 2rem;
+    }
+
+    h2 {
+        font-size: 30px !important;
+    }
+
+    .mandy-candy-cards text {
+        font-size: 17px;
+        line-height: 29px;
+    }
 }
 
 
