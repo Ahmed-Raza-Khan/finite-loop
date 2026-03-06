@@ -1,7 +1,7 @@
-const categories = [
-        "All Articles", "Development best practices", "Technology tutorials", 
-        "Technology tutorials", "Ecommerce optimization", "AI implementation guides"
-    ];
+// const categories = [
+//         "All Articles", "Development best practices", "Technology tutorials", 
+//         "Technology tutorials", "Ecommerce optimization", "AI implementation guides"
+//     ];
 
 const posts = [
     { 
@@ -23,12 +23,12 @@ const posts = [
         img: "assests/images/images-blog/latest-post-9.png" }
 ];
 
-const filterContainer = document.getElementById('category-filter');
-filterContainer.innerHTML = categories.map((cat, index) => `
-    <button class="${index === 0 ? 'bg-teal-400 text-teal-950' : 'text-gray-300 hover:text-white'} px-5 py-2 rounded-full transition-all latest-post-selector">
-        ${cat}
-    </button>
-`).join('');
+// const filterContainer = document.getElementById('category-filter');
+// filterContainer.innerHTML = categories.map((cat, index) => `
+//     <button class="${index === 0 ? 'bg-teal-400 text-teal-950' : 'text-gray-300 hover:text-white'} px-5 py-2 rounded-full transition-all latest-post-selector">
+//         ${cat}
+//     </button>
+// `).join('');
 
 const cardsGrid = document.getElementById('cards-grid');
 cardsGrid.innerHTML = posts.map(post => `
