@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet"
+            />
+        <title>Finite-Loop | Blog Detail</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="icon" type="image/x-icon" href="assests/images/finite-loop-logo-main.png">
+        <link rel="stylesheet" href="assests/css/contact.css">
+    </head>
+
+<body class="bg-[#0a0a1a] overflow-x-hidden">
+    <section class="relative min-h-screen flex flex-col items-center overflow-hidden star-background">
+        <div class="absolute right-0 top-0 w-[600px] h-[600px] bg-purple-600 opacity-30 blur-[150px] rounded-full"></div>
+        
+        <div class="absolute inset-0 light-background w-full"></div>
+
+        <nav class="relative z-50 w-[90%] mt-8 md:mt-12 rounded-full px-10 md:px-15 py-3 flex items-center justify-between shadow-xl navbar-main-all">
+            <div class="hidden md:flex gap-8">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="#">Services</a>
+            </div>
+
+            <div class="z-10">
+                <a href="index.html">
+                    <img src="assests/images/finite-loop-logo-main.png" alt="logo" class="h-11 md:h-[60px] w-auto">
+                </a>
+            </div>
+
+            <div class="hidden md:flex gap-8">
+                <a href="blogs-and-article.html">Blogs & Articles</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+
+            <button id="menuToggle" class="md:hidden text-white text-3xl z-50">
+                ☰
+            </button>
+
+            <div id="mobileMenu"
+                class="fixed top-0 right-[-100%] w-[75%] h-full bg-purple-600/0 backdrop-blur-xl transition-all duration-500 z-40 flex flex-col items-center justify-center gap-8 text-white text-xl underline underline-offset-4">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About</a>
+                <a href="#">Services</a>
+                <a href="blogs-and-article.html">Blogs & Articles</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </nav>
+
+
+        <div class="relative z-1 text-center mt-15 px-6 max-w-6xl">
+            <h1 class="text-4xl md:text-6xl leading-tight mt-9 big-heading-hero-section">
+                <span>Get In touch with</span><br>
+                <span class="big-heading-hero-section-2">Finite Loop</span>
+            </h1>
+            
+            <p class="hero-sec-description-bottom-big mt-9 max-w-4xl mx-auto">
+                From first conversation to long-term support, we work with you at every stage of your product journey.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="bg-[#0C0529] overflow-hidden py-10">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-8 text-gray-200">
+            <div class="flex-1 space-y-8 contact-information-heading">
+                <span class="inline-block px-3 py-4 rounded-full mb-4">
+                    <span class="span-2 py-2 px-3 rounded-full">Contact Information</span>
+                </span>
+
+                <h1 class="text-4xl contact-main-heading-top">Connect with Us Today</h1>
+
+                <p class="max-w-lg contact-main-paragraph-top">
+                    Contact us to discuss projects, strategic partnerships, or collaboration opportunities.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10 ">
+                    <div class="flex items-start gap-4">
+                        <div class="p-2 bg-teal-300 rounded-full border border-gray-700">
+                            <img src="assests/images/images-contactus/Phone.svg" alt="Phone Icon" class="w-6 h-6 text-emerald-400">
+                        </div>
+                        <div class="contact-main-image-icons">
+                            <h3>Phone</h3>
+                            <p class="mt-1">+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="p-2 bg-teal-300 rounded-full border border-gray-700">
+                            <img src="assests/images/images-contactus/mail.svg" alt="Email Icon" class="w-6 h-6 text-emerald-400">
+                        </div>
+                        <div class="contact-main-image-icons">
+                            <h3>E-mail</h3>
+                            <p class="mt-1">hello@finiteloop.com</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4 col-span-2">
+                        <div class="p-2 bg-teal-300 rounded-full border border-gray-700">
+                            <img src="assests/images/images-contactus/MapPin.svg" alt="Location Icon" class="w-6 h-6 text-emerald-400">
+                        </div>
+                        <div class="contact-main-image-icons">
+                            <h3>Address</h3>
+                            <p class="mt-1">Global Presence</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-3xl overflow-hidden border-2 border-gray-800 relative shadow-2xl">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11444.324211757585!2d67.0583741!3d24.86552355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f61f7ff7ffb%3A0x4a327d1cb63b0875!2sSolCoders!5e1!3m2!1sen!2s!4v1772794185129!5m2!1sen!2s"
+                        width="100%"
+                        height="400"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="flex-1 bg-[#27282A] p-10 rounded-3xl border border-gray-800 shadow-xl space-y-10">
+                <p class="text-lg leading-relaxed form-contact-info">
+                    If you have questions or would like to discuss a project, please reach out using the contact form below.
+                </p>
+
+                <form class="space-y-8">
+                    <div class="flex flex-col md:flex-row gap-8">
+                        <div class="flex-1 space-y-2.5">
+                            <label class="block form-main-headings-">First Name<span class="text-red-600 ml-1">*</span></label>
+                            <input type="text" placeholder="Enter your first name" class="w-full bg-[#3C3C3C] border border-gray-700 rounded-xl px-5 py-4 text-text focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400 transition">
+                        </div>
+                        <div class="flex-1 space-y-2.5">
+                            <label class="block form-main-headings-">Last Name<span class="text-red-600 ml-1">*</span></label>
+                            <input type="text" placeholder="Enter your last name" class="w-full bg-[#3C3C3C] border border-gray-700 rounded-xl px-5 py-4 text-text focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400 transition">
+                        </div>
+                    </div>
+
+                    <div class="space-y-2.5">
+                        <label class="block form-main-headings-">Email Address<span class="text-red-600 ml-1">*</span></label>
+                        <input type="email" placeholder="Enter your email address" class="w-full bg-[#3C3C3C] border border-gray-700 rounded-xl px-5 py-4 text-text focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400 transition">
+                    </div>
+
+                    <div class="space-y-2.5">
+                        <label class="block form-main-headings-">Subject</label>
+                        <div class="relative">
+                            <select class="w-full bg-[#3C3C3C] border border-gray-700 rounded-xl px-5 py-4 text-white appearance-none focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400 transition">
+                                <option value="" disabled selected>Select a message subject</option>
+                                <option value="project">New Project</option>
+                                <option value="partnership">Strategic Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-5 text-gray-500">
+                                ▼
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2.5">
+                        <label class="block form-main-headings-">Message<span class="text-red-600 ml-1">*</span></label>
+                        <textarea placeholder="Enter your message here" rows="6" class="w-full bg-[#3C3C3C] border border-gray-700 rounded-xl px-5 py-4 text-text focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400 transition"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-max px-6 py-3 rounded-full hover:bg-emerald-500 transition-colors duration-300 shadow-md form-submit-button-bottom">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="relative py-24 bg-[#0C0529] overflow-hidden grid-background-section">
+
+        <div class="max-w-6xl mx-auto text-center mb-16 px-4 what-our-client-say-heading">
+
+            <span class="inline-block px-3 py-4 rounded-full mb-4">
+                <span class="span-2 py-2 px-3 rounded-full">What Our Clients Say</span>
+            </span>
+
+            <h2 class="text-4xl md:text-5xl">
+                Precision That Clients Trust
+            </h2>
+
+        </div>
+
+        <div class="absolute w-[300px] h-[300px] bg-purple-600 opacity-30 blur-[130px] rounded-full top-10 left-2/2 -translate-x-1/2"></div>
+
+        <div class="relative overflow-hidden mb-10 py-3 user-slider-fade">
+            <div id="sliderRow1" class="flex gap-6 w-max"></div>
+        </div>
+
+        <div class="relative overflow-hidden py-3 user-slider-fade">
+            <div id="sliderRow2" class="flex gap-6 w-max"></div>
+        </div>
+    </section>
+
+
+    <section class="bg-[#0C0529] px-5 md:px-10 py-5">
+        <div class="relative overflow-hidden rounded-2xl text-center py-12 md:py-16 px-5 md:px-20 background-bulid-matters">
+
+            <div class="absolute w-110 h-64 bg-[#c2b2e3] rounded-full blur-2xl bottom-[-60px] left-1/2 background-bulid-matters-circle-down">
+            </div>
+
+            <div class="relative z-10 background-bulid-matters-text">
+                <h2 class="text-3xl md:text-5xl">
+                    Let’s Build What Matters
+                </h2>
+
+                <p class="mt-3 md:text-base">
+                    Schedule a consultation to discuss your goals and technical needs.
+                </p>
+
+                <button class="mt-8 px-8 py-3 rounded-full transition duration-300">
+                    Book a Consultation
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="relative bg-[#0C0529] px-5 md:px-20 py-5 overflow-hidden">
+
+        <div class="absolute inset-0 bg-grid-pattern opacity-20 pointer-events-none h-40 grid-footer-slider-fade"></div>
+        <div class="absolute inset-0 bg-oval-circle-grid-pattern pointer-events-none h-40 w-full"></div>
+
+            <div class="relative z-10">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+
+                    <a href="index.html"><img src="assests/images/finite-loop-logo-main.png" alt="Finite Loop Logo" class="h-14 w-40"></a>
+
+                    <div class="flex gap-4">
+                        <img src="assests/images/footer-logo-facebook.svg" class="cursor-pointer" alt="icon-social" width="25">
+                        <img src="assests/images/footer-logo-Instagram.svg" class="cursor-pointer" alt="icon-social" width="25">
+                        <img src="assests/images/footer-logo-Twitter.svg" class="cursor-pointer" alt="icon-social" width="25">
+                        <img src="assests/images/footer-logo-Pinterest.svg" class="cursor-pointer" alt="icon-social" width="25">
+                    </div>
+                </div>
+
+                <div class="border-t my-10 foter-horizontal-row"></div>
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+                    <div class="foter-heading-all-links">
+                        <h3 class="mb-4">Quick Links</h3>
+                        <ul class="space-y-5">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li>Service</li>
+                            <li>Technology</li>
+                            <li>Case studies</li>
+                        </ul>
+                    </div>
+
+                    <div class="foter-heading-all-links">
+                        <h3 class="mb-4">Services</h3>
+                        <ul class="space-y-5">
+                            <li>Ecommerce Solutions</li>
+                            <li>Platform Development</li>
+                            <li>Cybersecurity Solutions</li>
+                            <li>Mobile App Development</li>
+                            <li>Custom Web Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="foter-heading-all-links">
+                        <h3 class="mb-4">More Links</h3>
+                        <ul class="space-y-5">
+                            <li>FAQs</li>
+                            <li>Resources</li>
+                            <li>Contact</li>
+                            <li><a href="blogs-and-article.html">Blogs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="foter-heading-all-links-newsletter">
+                        <h3 class="mb-4">
+                            Stay updated on AI-first, precision-led engineering.
+                        </h3>
+
+                        <div class="flex mt-6 p-1 rounded-full overflow-hidden foter-heading-all-links-newsletter-input w-full md:w-80">
+                            <input type="email"placeholder="Enter your email" class="bg-transparent px-4 py-3 w-full focus:outline-none">
+
+                            <button class="px-7 py-0 rounded-full">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="border-t my-10 foter-horizontal-row"></div>
+
+            <p class="text-center footer-copyright-text">
+                © 2026 Finite Loop. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="assests/js/blog-deatil/toogle-navbarmobile-size.js"></script>
+    <script src="assests/js/blog-deatil/read-post-card.js"></script>
+    <script src="assests/js/blog-deatil/our-client-card-section.js"></script>
+    <script src="assests/js/blog-deatil/latest-post-card.js"></script>
+</body>
+</html>
