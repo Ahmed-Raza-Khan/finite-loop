@@ -280,8 +280,76 @@ nav div a:hover {
 }
 
 
+/* freauently asked question */
+.frequently-asked-question span {
+  background-color: var(--purple-color-mixed-25);
+  color: var(--white-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-regular);
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  gap: 12px;
+}
 
+.frequently-asked-question span .span-2{
+  background-color: transparent;
+  border: 1.11px solid var(--purple-color-back);
+  gap: 12px;
+}
 
+.asked-question-main-headings-top {
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 66px;
+  line-height: 85px;
+  letter-spacing: -4%;
+  background: linear-gradient(180deg, #fff, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .asked-question-main-headings-top text{
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 66px;  
+  line-height: 85px;
+  letter-spacing: -4%;
+  color: var(--teal-green-color);
+} */
+
+.asked-question-cards {
+  background-color: var(--background-dark-gray-80);
+  border: none;
+}
+
+.asked-question-cards:hover {
+  background-color: var(--background-card-dark-to-light-teal-20);
+  border: 1.1px solid var(--background-card-dark-to-light-teal-50);
+}
+
+.asked-question-cards h3 {
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 25px;  
+  line-height: 37px;
+  letter-spacing: 0%;
+  color: var(--white-half);
+}
+
+.asked-question-cards p {
+  font-family: var(--font-outfit);
+  font-weight: var(--font-weight-100);
+  font-style: var(--font-light);
+  font-size: 18px;  
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: var(--white-half);
+}
 
 
 /* what our clients say section */
