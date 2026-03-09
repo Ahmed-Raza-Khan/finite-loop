@@ -3,58 +3,58 @@
 @import url('https://fonts.cdnfonts.com/css/satoshi');
 
 :root {
-    --font-gotham: 'Gotham';
-    --font-clash-display: 'Clash Display';
-    --font-satoshi: 'Satoshi';
-    --font-outfit: 'Outfit';
-    --font-poppins: 'Poppins';
-    --font-regular: 'regular';
-    --font-bold: 'Bold';
-    --font-medium: 'Medium';
-    --font-light: 'Light';
-    --font-semibold: 'SemiBold';
-    --font-weight-300: 300;
-    --font-weight-400: 400;
-    --font-weight-500: 500;
-    --font-weight-600: 600;
-    --font-weight-700: 700;
-    --white-color: #FFFFFF;
-    --white-half: #EFF1F9;
-    --color-mains-down: background: linear-gradient(180deg, #fff, #999);
-    --gray-color-40: #bdbdbd;
-    --gray-color-darker: #3A4046;
-    --gray-color-old-darks: #252628;
-    --teal-green-color: #5CFFC5;
-    --teal-green-colors-playing: #5DFCC6;
-    --teal-green-linear-shades: #5CFEC533;
-    --teal-green-linear-color: #5CFEC5;
-    --dark-black-selection-color: #27282A;
-    --dark-gray-color: #D9D9D9;
-    --gray-color-opacity-10: #FFFFFF1A;
-    ---white-border-color-opacity-40: #FFFFFF66;
-    --purple-color-back: #703BEC;
-    --purple-color-mixed-25: #703BEC40;
-    --purple-background-main: #070322;
-    --background-card-dark-to-light-teal-10: #5CFFC51A;
-    --background-card-dark-to-light-teal-20: #5CFFC533;
-    --background-card-dark-to-light-teal-50: #5CFFC580;
-    --background-dark-gray-80: #27282ACC;
+  --font-gotham: 'Gotham';
+  --font-clash-display: 'Clash Display';
+  --font-satoshi: 'Satoshi';
+  --font-outfit: 'Outfit';
+  --font-poppins: 'Poppins';
+  --font-regular: 'regular';
+  --font-bold: 'Bold';
+  --font-medium: 'Medium';
+  --font-light: 'Light';
+  --font-semibold: 'SemiBold';
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --white-color: #FFFFFF;
+  --white-half: #EFF1F9;
+  --color-mains-down: background: linear-gradient(180deg, #fff, #999);
+  --gray-color-40: #bdbdbd;
+  --gray-color-darker: #3A4046;
+  --gray-color-old-darks: #252628;
+  --teal-green-color: #5CFFC5;
+  --teal-green-colors-playing: #5DFCC6;
+  --teal-green-linear-shades: #5CFEC533;
+  --teal-green-linear-color: #5CFEC5;
+  --dark-black-selection-color: #27282A;
+  --dark-gray-color: #D9D9D9;
+  --gray-color-opacity-10: #FFFFFF1A;
+  ---white-border-color-opacity-40: #FFFFFF66;
+  --purple-color-back: #703BEC;
+  --purple-color-mixed-25: #703BEC40;
+  --purple-background-main: #070322;
+  --background-card-dark-to-light-teal-10: #5CFFC51A;
+  --background-card-dark-to-light-teal-20: #5CFFC533;
+  --background-card-dark-to-light-teal-50: #5CFFC580;
+  --background-dark-gray-80: #27282ACC;
 }
 
 
 /* navbar section */
 .light-background {
-    background-image: url(../images/lignting-navbar.png);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: top right;
-    opacity: 0.7;
+  background-image: url(../images/lignting-navbar.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  opacity: 0.7;
 }
 
 .star-background {
-    background: url(../images/navbar-stars.png);
-    background-repeat: no-repeat;
-    width: 100%;
+  background: url(../images/navbar-stars.png);
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .navbar-main-all {
@@ -98,20 +98,20 @@ nav div a:hover {
 }
 
 .big-heading-hero-section-2 {
-    font-family: var(--font-poppins);
-    font-weight: var(--font-weight-500);
-    font-style: var(--font-medium);
-    font-size: 80px;
-    line-height: 120%;
-    letter-spacing: -4%;
-    text-transform: capitalize;
-    color: var(--teal-green-color);
+  font-family: var(--font-poppins);
+  font-weight: var(--font-weight-500);
+  font-style: var(--font-medium);
+  font-size: 80px;
+  line-height: 120%;
+  letter-spacing: -4%;
+  text-transform: capitalize;
+  color: var(--teal-green-color);
 }
 
 .mask-color-span-3 {
-    background: linear-gradient(180deg, #fff, #999);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, #fff, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero-sec-description-bottom-big {
@@ -124,7 +124,7 @@ nav div a:hover {
   color: var(--white-half);
 }
 
-/* @media (min-width: 425px) {
+@media (min-width: 425px) {
   .big-heading-hero-section, 
   .big-heading-hero-section-2 {
     font-size: 48px;
@@ -168,7 +168,7 @@ nav div a:hover {
     font-size: 20px;
     line-height: 30px;
   }
-} */
+}
 
 
 /* contact information section */
@@ -265,20 +265,98 @@ nav div a:hover {
 }
 
 .map-pointer {
-    width: 20px;
-    height: 20px;
-    background-color: #38E6A4;
-    border-radius: 50%;
-    border: 2px solid white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  width: 20px;
+  height: 20px;
+  background-color: #38E6A4;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 .map-pointer-center {
-    width: 8px;
-    height: 8px;
-    background-color: white;
-    border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
 }
 
+@media (min-width: 600px) {
+  .contact-main-heading-top {
+      font-size: 50px;
+      line-height: 50px;
+  }
+
+  .contact-main-paragraph-top {
+      font-size: 20px;
+      line-height: 30px;
+  }
+
+  .form-submit-button-bottom {
+      width: max-content;
+      margin-left: 0;
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .form-contact-info {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-main-heading-top {
+    font-size: 42px;
+    line-height: 40px;
+    margin-left: 0;
+  }
+
+  .contact-main-paragraph-top {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 0;
+  }
+
+  .form-contact-info {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .form-main-headings-{
+    font-size: 15px;
+    line-height: 5px;
+  }
+
+  .form-input-label-all- {
+    font-size: 10px;
+  }
+
+  .form-submit-button-bottom {
+    margin-left: 20%;
+  }
+
+  .contact-main-image-icons-circle {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact-main-image-icons h3 {
+    font-size: 19px;
+  }
+
+  .contact-main-image-icons p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 250px;
+  }
+}
 
 /* freauently asked question */
 .frequently-asked-question span {
@@ -349,6 +427,52 @@ nav div a:hover {
   line-height: 26px;
   letter-spacing: 0%;
   color: var(--white-half);
+}
+
+@media (min-width: 600px) {
+  .asked-question-main-headings-top {
+    font-size: 35px;
+    line-height: 48px;
+  }
+  
+  .asked-question-cards {
+    padding: 2rem !important;
+  }
+
+  .asked-question-cards h3 {
+    font-size: 22px;
+  }
+
+  .asked-question-cards p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  section.relative.max-w-full {
+    padding-left: 3.75rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .asked-question-main-headings-top {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .asked-question-cards {
+    padding: 1.5rem !important;
+  }
+
+  .asked-question-cards h3 {
+    font-size: 21px;
+    line-height: 37px;
+  }
+
+  .asked-question-cards p {
+    font-size: 13px;
+    line-height: 22px;
+  }
 }
 
 
